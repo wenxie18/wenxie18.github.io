@@ -14,5 +14,5 @@ news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
-Hi, I'm Wen, a Ph.D. candidate in Computer and Eletrical Engineering from UH. I am passionate about leveraging machine learning and big data analytics to conduct marketing research to address substantive problems, practical challenges, and inform business decisions. My research interests lie at the intersection of visual marketing, online advertising, social media, and machine learning. 
+Hi, I'm Wen, a Ph.D. candidate in Computer and Eletrical Engineering at University of Houston. I am passionate about leveraging machine learning and big data analytics to conduct marketing research to address substantive problems, practical challenges, and inform business decisions. My research interests lie at the intersection of visual marketing, online advertising, social media, and machine learning. 
 
