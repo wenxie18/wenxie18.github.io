@@ -639,3 +639,9 @@ The theme is available as open source under the terms of the [MIT License](https
 
 Originally, **al-folio** was based on the [\*folio theme](https://github.com/bogoli/-folio) (published by [Lia Bogoev](https://liabogoev.com) and under the MIT license).
 Since then, it got a full re-write of the styles and many additional cool features.
+
+
+# Wen's notes:
+1. bundle install
+2. bundle exec jekyll serve
+3. bin/deploy --user
