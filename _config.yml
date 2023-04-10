@@ -81,18 +81,18 @@ scholar_userid: # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 orcid_id: # your ORCID ID
-#medium_username: # your Medium username
-#quora_username: # your Quora username
-#publons_id: # your ID on Publons
-#osf_id: # your OSF ID
-#research_gate_profile: # your profile on ResearchGate
-#blogger_url: # your blogger URL
-#work_url: # work page URL
-#keybase_username: # your keybase user name
-#wikidata_id: # your wikidata id
-#wikipedia_id: # your wikipedia id (Case sensitive)
-#dblp_url: # your DBLP profile url
-#stackoverflow_id: # your stackoverflow id
+medium_username: # your Medium username
+quora_username: # your Quora username
+publons_id: # your ID on Publons
+osf_id: # your OSF ID
+research_gate_profile: # your profile on ResearchGate
+blogger_url: # your blogger URL
+work_url: # work page URL
+keybase_username: # your keybase user name
+wikidata_id: # your wikidata id
+wikipedia_id: # your wikipedia id (Case sensitive)
+dblp_url: # your DBLP profile url
+stackoverflow_id: # your stackoverflow id
 kaggle_id: # your kaggle id
 lastfm_id: # your lastfm id
 spotify_id: # your spotify id
@@ -156,14 +156,13 @@ disqus_shortname:  # put your disqus shortname
 # External sources.
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
-#external_sources:
-#  - name: medium.com
-#    rss_url: https://medium.com/@al-folio/feed
+external_sources:
+  - name: medium.com
+    rss_url: https://medium.com/@al-folio/feed
 
 # -----------------------------------------------------------------------------
 # Collections
 # -----------------------------------------------------------------------------
-
 
 collections:
   news:
@@ -172,7 +171,7 @@ collections:
     output: false
     permalink: /news/:path/
   projects:
-    output: false
+    output: true
     permalink: /projects/:path/
 
 

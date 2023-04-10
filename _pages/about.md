@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About me
 permalink: /
 subtitle: Atlanta, GA # <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
