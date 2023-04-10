@@ -2,71 +2,72 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Wen Xie
     - name: Languages
-      value: English, German
+      value: English, Chinese
 
+- title: Research Interests
+  type: simple_list
+  contents:
+      items:
+        - General Machine Learning
+        - Computer Vision
+        - Natural Language Processing
+   
 - title: Education
   type: time_table
   contents:
     - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+      institution: University of Houston
+      year: 2018 - present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - Computer and Electrical Engineering
+        - title: "Dissertation Title: Machine Learning and Unstructured Data Analytics for Digital Marketing"
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+            - "Study 1 - Understanding Consumers’ Visual Attention in Mobile Advertisements: An Ambulatory Eye-Tracking Study with Machine Learning Techniques"
+            - Study 2 - Congruence Affects Social Media Ad Engagement
+            - "Study 3 - Not a Black or White Matter: Autodetection and Perception of Skin Tone Diversity in Visual Marketing Communication"
+    
+    - title: Bachelor in Engineering
+      institution: University of Electronic Science and Technology of China
+      year: 2014 - 2018
       description:
-        - Description 1.
-        - Description 2.
+        - Electronic Information Engineering
+        - "GPA: 3.95/4.00"
 
-- title: Experience
+    - title: Bachelor in Economics
+      institution: University of Electronic Science and Technology of China
+      year: 2014 - 2018
+      description:
+        - Finance
+        - "GPA: 3.95/4.00"
+
+- title: Industry Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Internship
+      institution: Computation Social Science Team, Snap Research
+      year: Summer 2022
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - title: Explored how congruence affects ad engagement and user experience
+          contents: 
+            - For example, after users watch a short video about sports, should we place an ad with sports content or others to optimize ad engagement?
+        - Worked with Maarten Bos, Yozen Liu and Ron Dotsch
+
+    - title: Machine Learning Research Internship
+      institution: Web Answers and Ranking Team, Apple
+      year: Summer 2021
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+        - Built open-domain multi-hop question-answering models with text summarization and Transformers
+        - Worked with Kartik Perisetla
+   
 
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: <a href="https://github.com/vince-wenxie/SkinToneDiversityDetector">Skin-Tone Diversity Detector</a>
+      year: 2021 - 
+      description: A machine learning-aided framework to detect skin-tone diversity from brand visuals
 
 - title: Honors and Awards
   type: time_table
@@ -78,20 +79,3 @@
     - year: 2029
       items: 
         - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
