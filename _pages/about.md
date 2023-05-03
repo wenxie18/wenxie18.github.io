@@ -16,7 +16,7 @@ social: false  # includes social icons at the bottom of the page
 ---
 Hi, I'm Wen, a Ph.D. candidate in Computer and Electrical Engineering at University of Houston. I am passionate about leveraging machine learning and big data analytics to conduct marketing research and address substantive problems and practical challenges for business implications. My research interests lie at the intersection of visual marketing, online advertising, social media, causal analysis, computer vision, and natural language processing. 
 
-<span style="color: darkblue"> I'm currently looking for a full-time applied scientist/research scientist/machine learning engineer/data scientist. </span> Any resources or referrals would be highly appreciated! 
+<span style="color: red"> I'm currently looking for a full-time applied scientist/research scientist/machine learning engineer/data scientist. </span> Any resources or referrals would be highly appreciated! 
 
 Contact me via email [vaneshieh@gmail.com](mailto:vaneshieh@gmail.com) or [LinkedIn](https://www.linkedin.com/in/vincexie/)
 
