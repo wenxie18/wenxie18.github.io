@@ -18,5 +18,5 @@ Hi, I'm Wen, a Ph.D. candidate in Computer and Electrical Engineering at Univers
 
 <span style="color: darkblue"> I'm currently looking for a full-time applied scientist/research scientist/machine learning engineer/data scientist. </span> Any resources or referrals would be highly appreciated! 
 
-Contact me via email vaneshieh@gmail.com or [Linkedin](https://www.linkedin.com/in/vincexie/)
+Contact me via email [vaneshieh@gmail.com](mailto:vaneshieh@gmail.com) or [Linkedin](https://www.linkedin.com/in/vincexie/)
 
