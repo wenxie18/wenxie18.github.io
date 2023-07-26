@@ -165,15 +165,15 @@ disqus_shortname:  # put your disqus shortname
 # Collections
 # -----------------------------------------------------------------------------
 
-collections:
-  news:
-    defaults:
-      layout: post
-    output: false
-    permalink: /news/:path/
-  projects:
-    output: false
-    permalink: /projects/:path/
+#collections:
+#  news:
+#    defaults:
+#      layout: post
+#    output: false
+#    permalink: /news/:path/
+#  projects:
+#    output: false
+#    permalink: /projects/:path/
 
 news_scrollable: true # adds a vertical scroll bar if there are more than 3 news items
 news_limit: 5 # leave blank to include all the news in the `_news` folder
@@ -248,10 +248,10 @@ jekyll-archives:
     year: archive-year
     tag: archive-tag
     category: archive-category
-  permalinks:
-    year: '/blog/:year/'
-    tag: '/blog/tag/:name/'
-    category: '/blog/category/:name/'
+  #permalinks:
+  #  year: '/blog/:year/'
+  #  tag: '/blog/tag/:name/'
+  #  category: '/blog/category/:name/'
 
 display_tags: ['formatting', 'images', 'links', 'math', 'code'] # this tags will be dispalyed on the front page of your blog
 
