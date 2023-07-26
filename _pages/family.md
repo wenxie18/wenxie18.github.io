@@ -10,31 +10,35 @@ nav_order: 4
 <div style="text-align: center;">
   <h2>SanQi, the world traveler!</h2>
   <p>Born in Taipei, he embarked on a transcontinental journey to the U.S. at just two months old.</p>
-  <img src="/assets/img/fallcolor.jpg" alt="Fall Colors" width="500">
+  <img src="/assets/img/fallcolor.jpg" alt="Fall Colors" width="400">
 </div>
 
-<div style="text-align: center;">
-  <h2>Graduated with flying colors!</h2>
-  <p>He even attended "kinderdog" school to learn how to get along with everyone.</p>
-  <img src="/assets/img/graduation.jpg" alt="Graduation" width="500">
+<div style="display: flex; justify-content: center;">
+  <div style="text-align: center;">
+    <h2>Graduated with flying colors!</h2>
+    <p>He even attended "kinderdog" school to learn how to get along with everyone.</p>
+    <img src="/assets/img/graduation.jpg" alt="Graduation" width="400">
+  </div>
+  
+  <div style="text-align: center;">
+    <h2>A social butterfly!</h2>
+    <p>SanQi loves making new friends—people, kids, dogs, or even insects!</p>
+    <img src="/assets/img/smile.jpg" alt="Infectious Smile" width="400">
+  </div>
 </div>
 
-<div style="text-align: center;">
-  <h2>A social butterfly!</h2>
-  <p>SanQi loves making new friends—people, kids, dogs, or even insects!</p>
-  <img src="/assets/img/smile.jpg" alt="Infectious Smile" width="500">
-</div>
-
-<div style="text-align: center;">
-  <h2>His gloomy days...</h2>
-  <p>But beware, even SanQi has his gloomy days. One time, he decided to take a nap with his eyes hidden under a drawer leg.</p>
-  <img src="/assets/img/sleep.jpeg" alt="Funny Nap" width="500">
-</div>
-
-<div style="text-align: center;">
-  <h2>Stubborn and adorable!</h2>
-  <p>Oh, he can be quite stubborn too. He has his own thoughts and routes, pretending not to listen to you.</p>
-  <img src="/assets/img/stubborn.jpg" alt="Stubborn" width="500">
+<div style="display: flex; justify-content: center;">
+  <div style="text-align: center;">
+    <h2>His gloomy days...</h2>
+    <p>But beware, even SanQi has his gloomy days. One time, he decided to take a nap with his eyes hidden under a drawer leg.</p>
+    <img src="/assets/img/sleep.jpeg" alt="Funny Nap" width="400">
+  </div>
+  
+  <div style="text-align: center;">
+    <h2>Stubborn and adorable!</h2>
+    <p>Oh, he can be quite stubborn too. He has his own thoughts and routes, pretending not to listen to you.</p>
+    <img src="/assets/img/stubborn.jpg" alt="Stubborn" width="400">
+  </div>
 </div>
 
 <div style="text-align: center;">
