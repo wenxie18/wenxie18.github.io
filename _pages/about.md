@@ -1,6 +1,6 @@
 ---
 layout: about
-title: ABOUT ME
+title: ABOUT Wen
 permalink: /
 subtitle: Atlanta, GA # <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
