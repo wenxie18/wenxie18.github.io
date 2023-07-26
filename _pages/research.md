@@ -4,10 +4,10 @@ permalink: /research/
 title: Research
 description: Selected Research with Abstract
 nav: true
-nav_order: 3
+nav_order: 2
 ---
 
-####Shades of Representation: Auto-Detection and Perception of Skin-tone Diversity in Visual Marketing Communication
+#### Shades of Representation: Auto-Detection and Perception of Skin-tone Diversity in Visual Marketing Communication
 
 With Gijs Overgoor, Hsin-Hsuan Meg Lee, and Zhu Han
 
@@ -15,7 +15,7 @@ With Gijs Overgoor, Hsin-Hsuan Meg Lee, and Zhu Han
 - Under review at Marketing Science DEI Special Issue
 - Presented at 2023 Hawaii International Conference on System Sciences and 2023 Marketing Science: Diversity Equity Inclusion Conference
 
-##Congruence Affects Social Media Ad Engagement
+## Congruence Affects Social Media Ad Engagement
 
 With Ron Dotsch, Yozen Liu, Zhu Han, and Maarten Bos
 
@@ -24,7 +24,7 @@ With Ron Dotsch, Yozen Liu, Zhu Han, and Maarten Bos
 - Presented at 2023 Academy of Marketing Science Annual Conference
 - Best Conference Paper M. Wayne Delozier Award
 
-###Understanding Consumers’ Visual Attention in Mobile Advertisements: An Ambulatory Eye-Tracking Study with Machine Learning Techniques
+### Understanding Consumers’ Visual Attention in Mobile Advertisements: An Ambulatory Eye-Tracking Study with Machine Learning Techniques
 
 With Mi Hyun Lee, Ming Chen, and Zhu Han
 
