@@ -14,9 +14,14 @@ news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
-Hi, I'm Wen, a Ph.D. candidate in Computer and Electrical Engineering at University of Houston. I leverage machine learning and big data analytics to conduct marketing research and address substantive problems for business implications. My research interests lie at the intersection of visual marketing, online advertising, social media, causal analysis, computer vision, and natural language processing. 
+## About Wen - Ph.D. Candidate and Aspiring Marketing Researcher
 
-<span style="color: red">I'm currently seeking opportunities as a postdoctoral fellow or Assistant Professor in the field of Marketing.</span> Additionally, I am also interested in pursuing full-time roles as an applied scientist, research scientist, machine learning engineer, or data scientist. I would greatly appreciate any resources or referrals that can help me in my search.
+Wen is currently a Ph.D. candidate in Computer and Electrical Engineering at the University of Houston. He holds a B.ENG in Electrical Information Engineering and a B.ECON in Finance from UESTC. His research focuses on leveraging machine learning and big data analytics to conduct marketing research and address substantive problems with business implications. His interests lie at the intersection of visual marketing, online advertising, social media, causal analysis, computer vision, and natural language processing.
 
-Please contact me via email [vaneshieh@gmail.com](mailto:vaneshieh@gmail.com) or [LinkedIn](https://www.linkedin.com/in/vincexie/)
+<span style="color: red">As a marketing researcher, Wen is seeking opportunities as a postdoctoral fellow or Assistant Professor.</span> Additionally, he is keen on pursuing full-time roles as an applied scientist, research scientist, machine learning engineer, or data scientist. Any resources or referrals in these domains would be highly appreciated!
+
+**Contact Information:**
+- Email: [vaneshieh@gmail.com](mailto:vaneshieh@gmail.com)
+- LinkedIn: [https://www.linkedin.com/in/vincexie/](https://www.linkedin.com/in/vincexie/)
+
 
