@@ -21,10 +21,10 @@ Wen is currently a Ph.D. candidate in Computer and Electrical Engineering at the
 <span style="color: red">As a marketing researcher, Wen is seeking opportunities as a postdoctoral fellow or Assistant Professor in Marketing.</span> He is also keen on pursuing full-time roles as an applied scientist, research scientist, or machine learning engineer. Any resources or referrals in these domains would be highly appreciated!
 
 **Industry Experience:**
-- Machine Learning Research Intern at Web Answers and Ranking Team of Apple Inc.
+- Machine Learning Researcher at Web Answers and Ranking Team of Apple Inc.
   - Led a project on open-domain multi-hop question-answering using text summarization and generative models, such as T5, BART, and CtrlSum.
 
-- Research Scientist Intern at Computational Social Science Team of Snap Inc.
+- Research Scientist at Computational Social Science Team of Snap Inc.
   - Led a project on improving ad engagement and user experience.
 
 **Contact Information:**
