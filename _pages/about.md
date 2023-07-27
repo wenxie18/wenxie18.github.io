@@ -22,7 +22,7 @@ Wen is currently a Ph.D. candidate in Computer and Electrical Engineering at the
 
 **Industry Experience:**
 - Machine Learning Research Intern at Web Answers and Ranking Team of Apple Inc.
-  - Led a project on open-domain multi-hop question-answering using text summarization and generative models, such as T5, Bart, CtrlSum, Pegasus.
+  - Led a project on open-domain multi-hop question-answering using text summarization and generative models, such as T5, BART, and CtrlSum.
 
 - Research Scientist Intern at Computational Social Science Team of Snap Inc.
   - Led a project on improving ad engagement and user experience.
