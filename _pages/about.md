@@ -16,7 +16,9 @@ social: false  # includes social icons at the bottom of the page
 ---
 **About Wen - Ph.D. Candidate in Engineering and Aspiring Marketing Researcher**
 
-Wen is currently a Ph.D. candidate in Computer and Electrical Engineering at the University of Houston. He holds a B.ENG in Electrical Information Engineering and a B.ECON in Finance from UESTC. His research focuses on leveraging machine learning and big data analytics to conduct marketing research and address substantive problems for actionable business implications. His interests lie at the intersection of visual marketing, online advertising, social media, consumer behavior, causal analysis, computer vision, and natural language processing.
+Wen is currently a Ph.D. candidate in Computer and Electrical Engineering at the University of Houston. He holds a B.ENG in Electrical Information Engineering and a B.ECON in Finance from UESTC. His research focuses on leveraging machine learning and big data analytics to conduct marketing research and address substantive problems for actionable business implications. 
+
+In his first research stream, he employs computer vision and natural language processing to understand unstructured data in visual marketing, online advertising, and social media. In the second research stream, he conducts eye-tracking and behavioral experiments to understand consumer behavior. 
 
 <span style="color: red">As a marketing researcher, Wen is seeking opportunities as a postdoctoral fellow or Assistant Professor in Marketing.</span> He is also keen on pursuing full-time roles as an applied scientist, research scientist, or machine learning engineer. Any resources or referrals in these domains would be highly appreciated!
 
