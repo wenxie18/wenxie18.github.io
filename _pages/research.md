@@ -15,7 +15,7 @@ With <a href="https://www.rit.edu/directory/gxobbu-gijs-overgoor" style="color: 
 - Under review at Marketing Science DEI Special Issue
 - Presented at 2023 Hawaii International Conference on System Sciences, Maui, Hawaii
 - Presented at 2023 Marketing Science Diversity Equity Inclusion Conference, Dallas, TX
-- [Click me to view full paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4462296)
+- [Click here to view full paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4462296)
 
 
 #### **Congruence Affects Social Media Ad Engagement**
