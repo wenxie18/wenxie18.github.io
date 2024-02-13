@@ -14,9 +14,9 @@ news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
-**About Wen - Ph.D. Candidate in Engineering and Aspiring Marketing Researcher**
+**About Wen - Postdoctoral Fellow in Institute for Experiential AI**
 
-Wen is currently a Ph.D. candidate in Computer and Electrical Engineering at the University of Houston. He holds a B.ENG in Electrical Information Engineering and a B.ECON in Finance from UESTC. He leverages machine learning and big data analytics to conduct marketing research and address substantive problems for actionable business implications. 
+Wen is currently a Postdoctoral Fellow in Institute for Experiential AI at Northeastern University. He holds a Ph.D. in EE from the University of Houston and a B.ENG in Electrical Information Engineering and a B.ECON in Finance from UESTC. He leverages computer vision and big data analytics to conduct marketing research and address substantive problems for actionable business implications. 
 
 In his first research stream, he employs computer vision and natural language processing to understand unstructured data in visual marketing, online advertising, and social media. In the second research stream, he conducts eye-tracking and behavioral experiments to understand consumer behavior. 
 
