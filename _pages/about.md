@@ -20,7 +20,7 @@ Wen is currently a Postdoctoral Fellow in Institute for Experiential AI at North
 
 In his first research stream, he employs computer vision and natural language processing to understand unstructured data in visual marketing, online advertising, and social media. In the second research stream, he conducts eye-tracking and behavioral experiments to understand consumer behavior. 
 
-<span style="color: red">As a marketing researcher, Wen is seeking opportunities as a postdoctoral fellow or Assistant Professor in Marketing.</span> He is also keen on pursuing full-time roles as an applied scientist, research scientist, or machine learning engineer. Any resources or referrals in these domains would be highly appreciated!
+<span style="color: red">As a marketing researcher, Wen is seeking opportunities as an Assistant Professor in Marketing or related fields.</span> Any resources or referrals in these domains would be highly appreciated!
 
 **Industry Experience:**
 - Machine Learning Researcher at Web Answers and Ranking Team of Apple Inc.
