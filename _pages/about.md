@@ -2,35 +2,172 @@
 layout: about
 title: ABOUT Wen
 permalink: /
-subtitle: Atlanta, GA # <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Atlanta, GA
 
 profile:
   align: right
-  image: wen.png #profile_pic1.png
-  image_circular: false # crops the image to make it circular
-  address: #> <p>555 your office number</p>  <p>123 your address street</p> <p>Your City, State 12345</p>
+  image: wen.png
+  image_circular: false
+  image_size: 400px  # Increased image size
+  address: 
 
-news: false  # includes a list of news items
-selected_papers: false # includes a list of papers marked as "selected={true}"
-social: false  # includes social icons at the bottom of the page
+news: false
+selected_papers: false
+social: true  # Enable social icons
 ---
-**About Wen - Postdoctoral Fellow in Institute for Experiential AI**
 
-Wen is currently a Faculty Postdoctoral Fellow in Institute for Experiential AI at Northeastern University. He holds a Ph.D. in EE from the University of Houston and a B.ENG in Electrical Information Engineering and a B.ECON in Finance from UESTC. He leverages computer vision and big data analytics to conduct marketing research and address substantive problems for actionable business implications. 
+<div class="about-content">
+  <div class="bio-section">
+    <h2>About Me</h2>
+    <p class="lead">
+      I am a Faculty Postdoctoral Fellow in Institute for Experiential AI at Northeastern University, specializing in computer vision and big data analytics for marketing research.
+    </p>
+  </div>
 
-In his first research stream, he analyzes large observational datasets using empirical modeling to address important problems in visual marketing, TV and online advertising, and social media. In the second research stream, he conducts eye-tracking and behavioral experiments to understand consumer behavior. 
+  <div class="research-section">
+    <h2>Research Focus</h2>
+    <div class="research-streams">
+      <div class="stream">
+        <h3>Visual Marketing & Advertising</h3>
+        <p>I analyze large observational datasets using empirical modeling to address important problems in:</p>
+        <ul>
+          <li>Visual marketing</li>
+          <li>TV and online advertising</li>
+          <li>Social media analytics</li>
+        </ul>
+      </div>
+      
+      <div class="stream">
+        <h3>Consumer Behavior</h3>
+        <p>I conduct eye-tracking and behavioral experiments to understand consumer decision-making processes and preferences.</p>
+      </div>
+    </div>
+  </div>
 
-<span style="color: red">As a marketing researcher, Wen is seeking opportunities as an Assistant Professor in Marketing or related fields.</span> Any resources or referrals in these domains would be highly appreciated!
+  <div class="career-section">
+    <h2>Career</h2>
+    <p class="highlight">
+      I am currently seeking opportunities as an Assistant Professor in Marketing or related fields.
+    </p>
+    
+    <div class="experience">
+      <h3>Industry Experience</h3>
+      <div class="experience-item">
+        <h4>Machine Learning Researcher</h4>
+        <p class="company">Apple Inc. - Web Answers and Ranking Team</p>
+        <ul>
+          <li>Led a project on open-domain multi-hop question-answering using text summarization and generative models (T5, BART, CtrlSum)</li>
+        </ul>
+      </div>
 
-**Industry Experience:**
-- Machine Learning Researcher at Web Answers and Ranking Team of Apple Inc.
-  - Led a project on open-domain multi-hop question-answering using text summarization and generative models, such as T5, BART, and CtrlSum.
+      <div class="experience-item">
+        <h4>Research Scientist</h4>
+        <p class="company">Snap Inc. - Computational Social Science Team</p>
+        <ul>
+          <li>Led a project on improving ad engagement and user experience</li>
+        </ul>
+      </div>
+    </div>
+  </div>
 
-- Research Scientist at Computational Social Science Team of Snap Inc.
-  - Led a project on improving ad engagement and user experience.
+  <div class="education-section">
+    <h2>Education</h2>
+    <ul>
+      <li>Ph.D. in EE - University of Houston</li>
+      <li>B.ENG in Electrical Information Engineering - UESTC</li>
+      <li>B.ECON in Finance - UESTC</li>
+    </ul>
+  </div>
+</div>
 
-**Contact Information:**
-- Email: [vaneshieh@gmail.com](mailto:vaneshieh@gmail.com)
-- LinkedIn: [https://www.linkedin.com/in/vincexie/](https://www.linkedin.com/in/vincexie/)
+<style>
+.about-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.bio-section {
+  margin-bottom: 3rem;
+}
+
+.lead {
+  font-size: 1.25rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+.research-section, .career-section, .education-section {
+  margin-bottom: 3rem;
+}
+
+.research-streams {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+
+.stream {
+  background: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+
+.stream h3 {
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.experience-item {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.company {
+  color: #666;
+  font-style: italic;
+}
+
+.highlight {
+  background: #fff3cd;
+  padding: 1rem;
+  border-radius: 4px;
+  margin: 1rem 0;
+  color: #856404;
+}
+
+h2 {
+  color: #2c3e50;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+h3 {
+  color: #34495e;
+  margin-bottom: 1rem;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul li {
+  margin-bottom: 0.5rem;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+ul li:before {
+  content: "•";
+  color: #3498db;
+  position: absolute;
+  left: 0;
+}
+</style>
 
 
