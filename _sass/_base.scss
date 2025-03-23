@@ -1012,4 +1012,8 @@ pre {
   right: 0;
   box-sizing: border-box;
   clear: both;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
