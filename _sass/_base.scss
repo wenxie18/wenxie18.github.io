@@ -1,3 +1,5 @@
+@use 'variables' as v;
+
 /*******************************************************************************
  * Styles for the base elements of the theme.
  ******************************************************************************/
@@ -469,12 +471,12 @@ footer.sticky-bottom {
       color: var(--global-text-color);
 
       &:hover {
-        color: $black-color;
+        color: v.$black-color;
       }
     }
 
     &.active .page-link {
-      color: $white-color;
+      color: v.$white-color;
       background-color: var(--global-theme-color);
 
       &:hover {
@@ -660,7 +662,7 @@ footer.sticky-bottom {
       .badges {
         span {
           display: inline-block;
-          color: $black-color;
+          color: v.$black-color;
           height: 100%;
           padding-left: 0.5rem;
           vertical-align: middle;

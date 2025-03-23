@@ -1,3 +1,5 @@
+@use 'variables' as v;
+
 /******************************************************************************
  * Content
  ******************************************************************************/
@@ -12,7 +14,7 @@ body {
   }
 
   a {
-    color: #3498db;
+    color: var(--global-theme-color);
     text-decoration: none;
     &:hover {
       text-decoration: underline;
@@ -160,20 +162,20 @@ body.sticky-bottom-footer {
 }
 
 .publication-year {
-  color: #3498db;
+  color: v.$blue-color;
 }
 
 .publication-link {
-  color: #3498db;
+  color: v.$blue-color;
   text-decoration: none;
   padding: 0.2rem 0.5rem;
-  border: 1px solid #3498db;
+  border: 1px solid v.$blue-color;
   border-radius: 4px;
   transition: all 0.2s ease;
   
   &:hover {
-    background-color: #3498db;
-    color: white;
+    background-color: v.$blue-color;
+    color: v.$white-color;
     text-decoration: none;
   }
 }
@@ -235,7 +237,7 @@ body.sticky-bottom-footer {
   
   &:before {
     content: "•";
-    color: #3498db;
+    color: v.$blue-color;
     position: absolute;
     left: 0;
   }
@@ -295,13 +297,13 @@ body.sticky-bottom-footer {
 }
 
 .social-icons a {
-  color: #666;
+  color: v.$grey-color;
   font-size: 1.5rem;
   transition: color 0.3s ease;
 }
 
 .social-icons a:hover {
-  color: #3498db;
+  color: v.$blue-color;
 }
 
 @media (max-width: 768px) {
