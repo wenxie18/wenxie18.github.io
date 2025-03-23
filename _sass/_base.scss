@@ -1007,4 +1007,9 @@ pre {
   display: block;
   padding: 0;
   opacity: 0.8;
+  position: relative;
+  left: 0;
+  right: 0;
+  box-sizing: border-box;
+  clear: both;
 }
