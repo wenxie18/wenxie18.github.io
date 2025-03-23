@@ -47,7 +47,11 @@ layout: default
             {% endif %}
             {% if pub.figures.size > 0 %}
               <div class="publication-figures">
-                <div class="figure-container">
+                <button class="figures-toggle" onclick="toggleFigures(this)">
+                  <span class="figures-icon">▼</span>
+                  <span class="figures-text">Show Visualization</span>
+                </button>
+                <div class="figure-container" style="display: none;">
                   {% for fig in pub.figures %}
                     <div class="figure-item">
                       <img src="{{ fig.image | relative_url }}" alt="{{ fig.caption }}" class="publication-figure">
@@ -78,6 +82,22 @@ function toggleAbstract(button) {
     content.style.display = 'none';
     icon.textContent = '▶';
     text.textContent = 'Show Abstract';
+  }
+}
+
+function toggleFigures(button) {
+  const content = button.nextElementSibling;
+  const icon = button.querySelector('.figures-icon');
+  const text = button.querySelector('.figures-text');
+  
+  if (content.style.display === 'none') {
+    content.style.display = 'block';
+    icon.textContent = '▼';
+    text.textContent = 'Hide Visualization';
+  } else {
+    content.style.display = 'none';
+    icon.textContent = '▶';
+    text.textContent = 'Show Visualization';
   }
 }
 </script> 

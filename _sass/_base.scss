@@ -1061,3 +1061,49 @@ pre {
     }
   }
 }
+
+.abstract-toggle {
+  background: none;
+  border: none;
+  color: var(--global-text-color);
+  cursor: pointer;
+  padding: 0;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0.5rem 0;
+  
+  &:hover {
+    color: var(--global-theme-color);
+  }
+}
+
+.figures-toggle {
+  background: none;
+  border: none;
+  color: var(--global-text-color);
+  cursor: pointer;
+  padding: 0;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0.5rem 0;
+  
+  &:hover {
+    color: var(--global-theme-color);
+  }
+}
+
+.abstract-icon, .figures-icon {
+  font-size: 0.8rem;
+  transition: transform 0.2s ease;
+}
+
+.abstract-content, .figure-container {
+  margin-top: 0.5rem;
+  padding: 1rem;
+  background-color: var(--global-card-bg-color);
+  border-radius: 4px;
+}
