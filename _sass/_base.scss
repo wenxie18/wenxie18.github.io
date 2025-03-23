@@ -214,6 +214,7 @@ blockquote {
     color: var(--global-navbar-text-color);
     transition: color 0.2s ease-in-out;
     padding: 0.5rem 1rem;
+    font-weight: 500;
 
     &:hover {
       color: var(--global-navbar-hover-color);
@@ -221,6 +222,7 @@ blockquote {
 
     &.active {
       color: var(--global-navbar-active-color);
+      font-weight: 600;
     }
   }
 }
@@ -346,6 +348,8 @@ blockquote {
   color: var(--global-text-color);
   cursor: pointer;
   transition: color 0.2s ease-in-out;
+  position: relative;
+  z-index: 1000;
 
   &:hover {
     color: var(--global-hover-color);
@@ -354,6 +358,7 @@ blockquote {
   .fa-sun,
   .fa-moon {
     font-size: 1.2rem;
+    pointer-events: none;
   }
 }
 

@@ -121,6 +121,73 @@ body.sticky-bottom-footer {
  * Publications
  ******************************************************************************/
 
+.publications {
+  margin-top: 2rem;
+
+  .publication-item {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background-color: var(--global-card-bg-color);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+
+    .publication-title {
+      font-size: 1.25rem;
+      font-weight: 600;
+      color: var(--global-text-color);
+      margin-bottom: 0.5rem;
+    }
+
+    .publication-authors {
+      font-size: 1.1rem;
+      color: var(--global-text-color-light);
+      margin-bottom: 0.5rem;
+    }
+
+    .publication-venue {
+      font-size: 1rem;
+      color: var(--global-text-color-light);
+      margin-bottom: 1rem;
+    }
+
+    .publication-figure {
+      margin: 1rem 0;
+      text-align: center;
+
+      img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 4px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      }
+    }
+
+    .abstract-toggle {
+      color: var(--global-theme-color);
+      cursor: pointer;
+      font-size: 0.9rem;
+      margin-top: 0.5rem;
+      display: inline-block;
+
+      &:hover {
+        color: var(--global-hover-color);
+      }
+    }
+
+    .abstract {
+      margin-top: 1rem;
+      padding: 1rem;
+      background-color: var(--global-bg-color);
+      border-radius: 4px;
+      display: none;
+
+      &.show {
+        display: block;
+      }
+    }
+  }
+}
+
 .publications-section {
   margin-top: 2rem;
   width: 100%;
@@ -612,4 +679,46 @@ body.sticky-bottom-footer {
   line-height: 1.6;
   color: var(--global-text-color);
   border: 1px solid var(--global-divider-color);
+}
+
+.career {
+  margin-bottom: 2rem;
+
+  .career-item {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background-color: var(--global-card-bg-color);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    transition: transform 0.2s ease-in-out;
+
+    &:hover {
+      transform: translateY(-2px);
+    }
+
+    .career-title {
+      font-size: 1.25rem;
+      font-weight: 600;
+      color: var(--global-text-color);
+      margin-bottom: 0.5rem;
+    }
+
+    .career-company {
+      font-size: 1.1rem;
+      color: var(--global-text-color-light);
+      margin-bottom: 0.5rem;
+    }
+
+    .career-team {
+      font-size: 1rem;
+      color: var(--global-text-color-light);
+      margin-bottom: 1rem;
+    }
+
+    .career-description {
+      font-size: 1rem;
+      line-height: 1.6;
+      color: var(--global-text-color);
+    }
+  }
 }
