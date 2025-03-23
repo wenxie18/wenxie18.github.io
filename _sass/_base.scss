@@ -202,6 +202,8 @@ blockquote {
 .navbar {
   background-color: var(--global-navbar-bg-color);
   border-bottom: 1px solid var(--global-navbar-border-color);
+  padding: 0.5rem 1rem;
+  box-shadow: none;
 
   .navbar-brand {
     color: var(--global-navbar-text-color);
@@ -211,6 +213,7 @@ blockquote {
   .nav-link {
     color: var(--global-navbar-text-color);
     transition: color 0.2s ease-in-out;
+    padding: 0.5rem 1rem;
 
     &:hover {
       color: var(--global-navbar-hover-color);
@@ -337,13 +340,20 @@ blockquote {
 }
 
 #light-toggle {
-  padding: 0;
+  padding: 0.5rem;
   border: 0;
-  background-color: inherit;
+  background-color: transparent;
   color: var(--global-text-color);
+  cursor: pointer;
+  transition: color 0.2s ease-in-out;
 
   &:hover {
     color: var(--global-hover-color);
+  }
+
+  .fa-sun,
+  .fa-moon {
+    font-size: 1.2rem;
   }
 }
 
@@ -769,7 +779,7 @@ html.transition,
 html.transition *,
 html.transition *:before,
 html.transition *:after {
-  transition: all 750ms !important;
+  transition: all 0.3s ease-in-out !important;
   transition-delay: 0 !important;
 }
 
@@ -899,4 +909,33 @@ pre {
   margin: 0 auto;
   padding: 0 2rem;
   box-sizing: border-box;
+}
+
+// Dark mode toggle button
+.theme-toggle {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  color: var(--global-text-color);
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    color: var(--global-hover-color);
+  }
+
+  .fa-sun,
+  .fa-moon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.2rem;
+  }
 }
