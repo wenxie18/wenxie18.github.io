@@ -3,13 +3,186 @@
 ---
 @charset "utf-8";
 
-// Dimensions
-$max-content-width: {{ site.max_width }};
+// Global styles
+html, body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+// Main content wrapper
+.content-wrapper {
+  width: 100% !important;
+  max-width: 80vw !important;
+  margin: 0 auto;
+  padding: 0 2rem;
+  background-color: #ffffff;
+  box-sizing: border-box;
+}
+
+// Navbar styles
+.navbar {
+  width: 100% !important;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  box-sizing: border-box;
+}
+
+.navbar-container {
+  width: 100% !important;
+  max-width: 70vw !important;
+  margin: 0 auto;
+  padding: 0 2rem;
+  box-sizing: border-box;
+}
+
+// Force all containers to respect max-width
+.container, 
+.post,
+.about-content,
+.profile,
+.social,
+.post-header,
+.career-content,
+.education-grid,
+.experience-grid,
+.distill-container {
+  width: 100% !important;
+  max-width: 70vw !important;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+// Ensure content is properly centered
+.about-content {
+  margin: 0 auto;
+  padding: 2rem;
+  width: 100% !important;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  gap: 2rem;
+  position: relative;
+  align-items: start;
+  max-width: 1000px;
+}
+
+.left-column {
+  width: 250px;
+  box-sizing: border-box;
+  position: sticky;
+  top: 2rem;
+  padding: 0;
+  align-self: start;
+  z-index: 1;
+  background-color: var(--global-bg-color);
+}
+
+.profile {
+  width: 100%;
+  text-align: left;
+  background: white;
+  padding: 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  margin-bottom: 1rem;
+}
+
+.profile-name {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin: 0 0 0.5rem 0;
+  text-align: left;
+  padding: 0;
+}
+
+.profile-location {
+  font-size: 1.1rem;
+  color: #666;
+  text-align: left;
+  margin: 0 0 1.5rem 0;
+  padding: 0;
+}
+
+.profile img {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  display: block;
+  margin: 0;
+  padding: 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.social-icons a {
+  color: #666;
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #3498db;
+}
+
+.right-column {
+  width: 100%;
+  box-sizing: border-box;
+  padding-top: 0;
+  position: relative;
+  z-index: 0;
+}
+
+.bio-section {
+  margin-bottom: 3rem;
+}
+
+.lead {
+  font-size: 1.25rem;
+  line-height: 1.8;
+  color: #2c3e50;
+  margin: 0;
+}
+
+.career-section,
+.education-section {
+  margin-bottom: 3rem;
+}
+
+@media (max-width: 768px) {
+  .about-content {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .left-column {
+    position: static;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .profile img {
+    max-width: 250px;
+  }
+}
 
 @import
   "variables",
   "themes",
   "layout",
   "base",
-  "distill"
-;
+  "distill";

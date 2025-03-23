@@ -1,0 +1,32 @@
+- title: "An Empirical Examination of the Ad-Program \"Congruence\" Effect on Ad-Viewing Behaviors: Evidence from TVision Data"
+  authors: "with Ming Chen, Chunxiao Xue"
+  journal: "Journal of Advertising Research"
+  year: 2025
+  scholar_link: "https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C22&q=An+Empirical+Examination+of+the+Ad-Program+%E2%80%9CCongruence%E2%80%9D+Effect+on+Ad-Viewing+Behaviors%3A+Evidence+from+TVision+Data&btnG="
+  abstract: "This study examines how ad-program “congruence”—the alignment between ad content and TV program themes—affects viewers’ attention to TV ads. Using a large dataset from TVision, we find that ads placed within congruent programs receive greater visual attention, particularly in the entertainment and financial industries. Further analysis shows that this positive congruence effect persists across different ad positions within a program, whether in the first, second, or third segment. These findings offer practical insights for advertisers seeking to optimize ad placement and maximize engagement."
+  figures: []
+
+- title: "Understanding consumers' visual attention in mobile advertisements: An ambulatory eye-tracking study with machine learning techniques"
+  authors: "with Mi Hyun Lee, Ming Chen, Zhu Han"
+  journal: "Journal of Advertising"
+  year: 2024
+  scholar_link: "https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C22&q=Understanding+consumers%E2%80%99+visual+attention+in+mobile+advertisements%3A+An+ambulatory+eye-tracking+study+with+machine+learning+techniques&btnG="
+  abstract: "As mobile devices have become a necessity in our daily lives, mobile advertising is also prevalent. Accordingly, it is critical for practitioners to understand how consumers visually attend to mobile advertisements. One popular way of doing so is via eye-tracking methodology. However, scant eye-tracking research exists in mobile settings due to technical challenges, e.g., cumbersome data annotation. To tackle these challenges, the authors propose an object-detection machine learning (ML) algorithm - You Only Look Once v3 (YOLO) - to analyze eye-tracking videos automatically. Moreover, we extend the original YOLO model by developing a novel algorithm to optimize the analysis of eye-tracking data collected from mobile devices. Through a lab experiment, we investigate how two types of ad elements, i.e., textual vs. pictorial, and two types of shopping devices, i.e., mobile vs. PC devices, affect consumers' visual attention. Our findings suggest that (1) textual ad elements receive more attention than pictorial ones, and such differences are more pronounced in ads on mobile devices than those on PCs; and (2) mobile ads receive less attention than PC ads. Our findings provide managerial insights into developing effective digital advertising strategies to improve consumers' visual attention in online and mobile advertisements."
+  notes:
+    - "Presented at 2020 American Marketing Association Winter Academic Conference, San Diego, CA"
+    - "Best Paper Award in Market Research"
+  figures:
+    - image: "/assets/img/2024JA_attention.jpeg"
+      caption: "Framework"
+    - image: "/assets/img/2024JA_result.png"
+      caption: "Advertisement elements detection"
+
+- title: "Multimodal Drivers of Attention Interruption to Baby Product Video Ads"
+  authors: "with Lingfei Luan, Yanjun Zhu, Yakov Bart, Sarah Ostadabbas"
+  journal: "International Conference on Pattern Recognition"
+  year: 2024
+  scholar_link: "https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C22&q=Multimodal+Drivers+of+Attention+Interruption+to+Baby+Product+Video+Ads&btnG="
+  abstract: "Ad designers often use sequences of shots in video ads, where frames are similar within a shot but vary across shots. These visual variations, along with changes in auditory and narrative cues, can interrupt viewers’ attention. In this paper, we address the underexplored task of applying multimodal feature extraction techniques to marketing problems. We introduce the “AttInfaForAd” dataset, containing 111 baby product video ads with visual ground truth labels indicating points of interest in the first, middle, and last frames of each shot, identified by 75 shoppers. We propose attention interruption measures and use multimodal techniques to extract visual, auditory, and linguistic features from video ads. Our feature-infused model achieved the lowest mean absolute error and highest R-square among various machine learning algorithms in predicting shopper attention interruption. We highlight the significance of these features in driving attention interruption. By open-sourcing the dataset and model code, we aim to encourage further research in this crucial area. (Dataset and model code available at https://github.com/ostadabbas/Baby-Product-Video-Ads)."
+  figures:
+    - image: "/assets/img/2024ICPR_framework.png"
+      caption: "Framework" 

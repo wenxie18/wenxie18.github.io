@@ -9,6 +9,11 @@
   {%- if page.redirect_to -%}
   <meta http-equiv="refresh" content="0; url={{ page.redirect_to }}/" />
   {%- endif -%}
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- End Google Fonts -->
   {% include head.html %}
   </head>
 
@@ -19,7 +24,7 @@
     {%- include header.html %}
 
     <!-- Content -->
-    <div class="container mt-5">
+    <div class="content-wrapper">
       {{ content }}
     </div>
 
