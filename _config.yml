@@ -201,6 +201,38 @@ plugins:
   - jekyll-link-attributes
   - jekyll-twitter-plugin
   - jemoji
+  - jekyll-coffeescript
+  - jekyll-default-layout
+  - jekyll-gist
+  - jekyll-github-metadata
+  - jekyll-optional-front-matter
+  - jekyll-paginate
+  - jekyll-readme-index
+  - jekyll-titles-from-headings
+  - jekyll-relative-links
+
+# Enable Imagemagick
+imagemagick: true
+
+# Enable AutoPages
+autopages:
+  enabled: true
+  permalink: /:collection/:name/
+  layout: page
+  titlecase: true
+
+# Enable Pagination v2
+pagination:
+  enabled: true
+  per_page: 10
+  permalink: /page:num/
+  title_suffix: " - Page :num"
+  limit: 0
+  sort_field: "date"
+  sort_reverse: true
+  trail:
+    before: 2
+    after: 2
 
 # Sitemap settings
 defaults:

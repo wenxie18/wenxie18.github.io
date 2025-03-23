@@ -6,11 +6,12 @@
 
 body {
   padding-bottom: 70px;
+  padding-top: 120px;
   color: var(--global-text-color);
   background-color: var(--global-bg-color);
 
   h1, h2, h3, h4, h5, h6 {
-    scroll-margin-top: 66px;
+    scroll-margin-top: 100px;
   }
 
   a {
@@ -45,7 +46,8 @@ body.sticky-bottom-footer {
   background-color: var(--global-card-bg-color);
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-  padding: 1.5rem;
+  padding: 2rem 1.5rem;
+  margin-top: 1rem;
   
   .profile-image-container {
     width: 100%;
@@ -93,25 +95,52 @@ body.sticky-bottom-footer {
   padding-left: 0rem;
 }
 
+.post {
+  width: 100%;
+  max-width: 60vw;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+  margin-top: 2rem;
+}
+
 .post-header {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   text-align: left;
-  margin-top: 10rem;
   padding-left: 0rem;
+  position: relative;
+  z-index: 1;
+  margin-top: 2rem;
+
+  .post-title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: var(--global-text-color);
+    margin: 0 0 0.5rem 0;
+    line-height: 1.2;
+  }
+
+  .desc {
+    font-size: 1.2rem;
+    color: var(--global-text-color-light);
+    margin: 0;
+    padding-left: 0rem;
+  }
 }
 
-.post-title {
-  font-size: 2.5rem;
-  font-weight: 600;
-  color: var(--global-text-color);
-  margin: 0 0 0.5rem 0;
-}
-
-.desc {
-  font-size: 1.2rem;
-  color: var(--global-text-color-light);
-  margin: 0;
-  padding-left: 0rem;
+.about-content {
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  gap: 2rem;
+  align-items: start;
+  margin: 0 auto;
+  padding: 2rem;
+  max-width: 1000px;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+  margin-top: 2rem;
 }
 
 // TODO: redefine content layout.
@@ -343,28 +372,6 @@ body.sticky-bottom-footer {
 *****************************************************************************/
 
 // TODO: redefine projects layout.
-
-.post {
-  width: 100%;
-  max-width: 80vw;
-  margin: 0 auto;
-  padding: 0;
-  box-sizing: border-box;
-  position: relative;
-}
-
-.about-content {
-  display: grid;
-  grid-template-columns: 250px 1fr;
-  gap: 2rem;
-  align-items: start;
-  margin: 0 auto;
-  padding: 2rem;
-  max-width: 1000px;
-  width: 100%;
-  box-sizing: border-box;
-  position: relative;
-}
 
 .left-column {
   position: sticky;
@@ -719,6 +726,41 @@ body.sticky-bottom-footer {
       font-size: 1rem;
       line-height: 1.6;
       color: var(--global-text-color);
+    }
+  }
+}
+
+.navbar {
+  background-color: var(--global-navbar-bg-color);
+  border-bottom: 1px solid var(--global-navbar-border-color);
+  padding: 1rem 1.5rem;
+  box-shadow: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  height: 80px;
+  margin-bottom: 0;
+
+  .navbar-brand {
+    color: var(--global-navbar-text-color);
+    font-weight: 600;
+  }
+
+  .nav-link {
+    color: var(--global-navbar-text-color);
+    transition: color 0.2s ease-in-out;
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+
+    &:hover {
+      color: var(--global-navbar-hover-color);
+    }
+
+    &.active {
+      color: var(--global-navbar-active-color);
+      font-weight: 600;
     }
   }
 }

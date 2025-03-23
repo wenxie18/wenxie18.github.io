@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 group :jekyll_plugins do
     gem 'classifier-reborn'
-    gem 'jekyll', '~> 4.4.1'
+    gem 'jekyll'
     gem 'jekyll-archives'
     gem 'jekyll-diagrams'
     gem 'jekyll-email-protect'
@@ -17,6 +17,15 @@ group :jekyll_plugins do
     gem 'mini_racer'
     gem 'unicode_utils'
     gem 'webrick'
+    gem 'jekyll-coffeescript'
+    gem 'jekyll-default-layout'
+    gem 'jekyll-gist'
+    gem 'jekyll-github-metadata'
+    gem 'jekyll-optional-front-matter'
+    gem 'jekyll-paginate'
+    gem 'jekyll-readme-index'
+    gem 'jekyll-titles-from-headings'
+    gem 'jekyll-relative-links'
 end
 group :other_plugins do
     gem 'feedjira'
