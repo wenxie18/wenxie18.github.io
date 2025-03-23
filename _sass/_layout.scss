@@ -64,14 +64,15 @@ body.sticky-bottom-footer {
 }
 
 .profile img {
-  width: 250px;
-  max-width: 100%;
+  width: 100%;
+  max-width: 300px;
   height: auto;
   display: block;
   margin: 0;
   padding: 0;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  object-fit: cover;
 }
 
 .profile .address {
@@ -80,7 +81,7 @@ body.sticky-bottom-footer {
   color: var(--global-text-color-light);
   text-align: left;
   width: 100%;
-  padding-left:0rem;
+  padding-left: 0rem;
 }
 
 .post-header {
