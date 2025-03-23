@@ -25,7 +25,9 @@ layout: default
               {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
             {% endif %}
 
-            <img src="{{ profile_image_path }}" class="{{ profile_image_class }}" alt="{{ page.profile.image }}" style="width: {{ page.profile.image_size | default: '300px' }};">
+            <div class="profile-image-container">
+              <img src="{{ profile_image_path }}" class="{{ profile_image_class }}" alt="{{ page.profile.image }}" {% if page.profile.image_size %}style="width: {{ page.profile.image_size }};"{% endif %}>
+            </div>
           {% endif -%}
           {%- if page.profile.address %}
           <div class="address">

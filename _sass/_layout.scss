@@ -42,6 +42,23 @@ body.sticky-bottom-footer {
   text-align: left;
   padding: 0;
   width: 100%;
+  
+  .profile-image-container {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+      margin: 0;
+      padding: 0;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      object-fit: cover;
+    }
+  }
 }
 
 .profile-name {
@@ -61,18 +78,6 @@ body.sticky-bottom-footer {
   margin: 0 0 1.5rem 0;
   padding: 0;
   width: 100%;
-}
-
-.profile img {
-  width: 100%;
-  max-width: 300px;
-  height: auto;
-  display: block;
-  margin: 0;
-  padding: 0;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  object-fit: cover;
 }
 
 .profile .address {
