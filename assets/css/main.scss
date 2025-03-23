@@ -27,24 +27,24 @@ body {
 // Main content wrapper
 .content-wrapper {
   width: 100% !important;
-  max-width: 80vw !important;
+  max-width: 100vw !important;
   margin: 0 auto;
   padding: 0 2rem;
-  background-color: #ffffff;
+  background-color: var(--global-bg-color);
   box-sizing: border-box;
 }
 
 // Navbar styles
 .navbar {
   width: 100% !important;
-  background-color: #ffffff;
+  background-color: var(--global-bg-color);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
   box-sizing: border-box;
 }
 
 .navbar-container {
   width: 100% !important;
-  max-width: 70vw !important;
+  max-width: 100vw !important;
   margin: 0 auto;
   padding: 0 2rem;
   box-sizing: border-box;
@@ -62,7 +62,7 @@ body {
 .experience-grid,
 .distill-container {
   width: 100% !important;
-  max-width: 70vw !important;
+  max-width: 100vw !important;
   margin: 0 auto;
   box-sizing: border-box;
 }
@@ -132,19 +132,19 @@ body {
 
 .social-icons {
   display: flex;
-  justify-content: center;
   gap: 1.5rem;
   margin-top: 1.5rem;
+  justify-content: flex-start;
 }
 
 .social-icons a {
-  color: #666;
+  color: var(--global-text-color);
   font-size: 1.5rem;
   transition: color 0.3s ease;
 }
 
 .social-icons a:hover {
-  color: #3498db;
+  color: var(--global-theme-color);
 }
 
 .right-column {
