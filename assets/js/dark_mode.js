@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const savedTheme = localStorage.getItem("theme");
     if (savedTheme) {
         document.documentElement.setAttribute('data-theme', savedTheme);
+        updateThemeStyles(savedTheme);
     }
 
     mode_toggle.addEventListener("click", function() {
@@ -18,6 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // Update theme
         document.documentElement.setAttribute('data-theme', newTheme);
         localStorage.setItem("theme", newTheme);
+        updateThemeStyles(newTheme);
         
         // Remove transition class after animation
         setTimeout(() => {
