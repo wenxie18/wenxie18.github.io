@@ -996,3 +996,12 @@ pre {
     }
   }
 }
+
+.thank-you-text {
+  text-align: left;
+  color: var(--global-text-color-light);
+  font-size: 0.9rem;
+  margin-top: 0.8rem;
+  margin-left: $thank-you-text-padding;
+  width: 100%;
+}
