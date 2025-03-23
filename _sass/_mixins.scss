@@ -73,7 +73,7 @@
 }
 
 // Container mixins
-@mixin container($max-width: 80vw, $padding: 1rem) {
+@mixin container($max-width: 60vw, $padding: 1rem) {
   width: 100%;
   max-width: $max-width;
   margin: 0 auto;
