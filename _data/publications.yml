@@ -30,3 +30,17 @@
   figures:
     - image: "/assets/img/2024ICPR_framework.png"
       caption: "Framework" 
+
+- title: "Automated detection of skin tone diversity in visual marketing communication"
+  authors: "with Gijs Overgoor, Hsin-Hsuan Meg Lee, Zhu Han"
+  journal: "Hawaii International Conference on System Sciences"
+  year: 2023
+  scholar_link: "https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C22&q=Automated+detection+of+skin+tone+diversity+in+visual+marketing+communication&btnG="
+  abstract: "Companies invest heavily in diversity, equity, and inclusion efforts. Specifically, the representation of people in visual marketing communication is often considered a manifestation of diversity policies. We propose a standard framework built on machine learning to create novel measures quantifying skin tone dynamics. We first use the Swin Transformer to extract skin pixels from images. Next, the K-means algorithm is deployed to classify skin tone components from the extracted skin pixels, accounting for multiple people with distinct skin colors in an image. Using images posted by 34 fashion brands on Instagram and Twitter, we demonstrate a useful application of the tool. The results highlight that, in the past two years, the fashion industry has slightly increased its diversity, represented by the increased variety of skin tones of people included in social media posts. Our method allows for automated detection of objective measures of skin-tone diversity in visual marketing communications."
+  figures:
+    - image: "/assets/img/2023HICSS_sample.png"
+      caption: "Skin tone detection" 
+    - image: "/assets/img/2023HICSS_position.png"
+      caption: "Brand diversity position in terms of skin tone" 
+    - image: "/assets/img/2023HICSS_brands.png"
+      caption: "Skin tone representation in brand visuals on social media" 
