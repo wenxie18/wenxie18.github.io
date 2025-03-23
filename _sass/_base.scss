@@ -976,10 +976,10 @@ pre {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 0;
+  gap: $social-icons-gap;
   width: 100%;
-  margin: 0 0;
-  padding-left: 3rem;
+  margin: $social-icon-margin;
+  padding-left: $social-icons-left-padding;
   text-align: center;
 
   a {
@@ -989,7 +989,7 @@ pre {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    margin: 0 0rem;
+    margin: $social-icon-margin;
 
     &:hover {
       color: var(--global-theme-color);
