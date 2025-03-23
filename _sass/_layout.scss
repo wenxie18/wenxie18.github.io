@@ -36,7 +36,7 @@ body.sticky-bottom-footer {
 // Profile
 .profile {
   margin-bottom: 1rem;
-  text-align: left;
+  text-align: center;
   padding: 1rem;
   width: 100%;
   background-color: var(--global-card-bg-color);
@@ -68,7 +68,7 @@ body.sticky-bottom-footer {
   font-weight: 600;
   color: var(--global-text-color);
   margin: 0 0 0.5rem 0;
-  text-align: left;
+  text-align: center;
   padding: 0;
   width: 100%;
 }
@@ -76,7 +76,7 @@ body.sticky-bottom-footer {
 .profile-location {
   font-size: 1.1rem;
   color: var(--global-text-color-light);
-  text-align: left;
+  text-align: center;
   margin: 0 0 1.5rem 0;
   padding: 0;
   width: 100%;
@@ -86,7 +86,7 @@ body.sticky-bottom-footer {
   margin-top: 1rem;
   font-size: 1.1rem;
   color: var(--global-text-color-light);
-  text-align: left;
+  text-align: center;
   width: 100%;
   padding-left: 0rem;
 }
@@ -138,6 +138,15 @@ body.sticky-bottom-footer {
   box-sizing: border-box;
   position: relative;
   margin-top: 2rem;
+}
+
+.left-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 250px;
+  margin: 0 auto;
 }
 
 // TODO: redefine content layout.
@@ -370,38 +379,10 @@ body.sticky-bottom-footer {
 
 // TODO: redefine projects layout.
 
-.left-column {
-  position: sticky;
-  top: 2rem;
-  width: 250px;
-  padding: 0;
-  box-sizing: border-box;
-  align-self: start;
-  z-index: 1;
-  background-color: var(--global-bg-color);
-}
-
 .right-column {
   width: 100%;
   position: relative;
   z-index: 0;
-}
-
-.social-icons {
-  display: flex;
-  gap: 1.5rem;
-  margin-top: 1.5rem;
-  justify-content: flex-start;
-  
-  a {
-    color: var(--global-text-color);
-    font-size: 1.5rem;
-    transition: color 0.3s ease;
-    
-    &:hover {
-      color: var(--global-theme-color);
-    }
-  }
 }
 
 @media (max-width: 768px) {

@@ -143,21 +143,31 @@ blockquote {
     margin-bottom: 1rem;
   }
 
-  .social-icons {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-
-    a {
-      color: var(--global-text-color-light);
-      font-size: 1.5rem;
-      transition: color 0.2s ease-in-out;
-
-      &:hover {
-        color: var(--global-theme-color);
-      }
+  .profile-image-container {
+    width: 100%;
+    max-width: 250px;
+    margin: 0 auto;
+    
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+      margin: 0;
+      padding: 0;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      object-fit: cover;
     }
   }
+}
+
+.left-column {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .profile.float-right {
@@ -959,5 +969,30 @@ pre {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 1.2rem;
+  }
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+  width: 100%;
+  margin: 0 0;
+  padding-left: 3rem;
+  text-align: center;
+
+  a {
+    color: var(--global-text-color-light);
+    font-size: 1.5rem;
+    transition: color 0.2s ease-in-out;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0rem;
+
+    &:hover {
+      color: var(--global-theme-color);
+    }
   }
 }
