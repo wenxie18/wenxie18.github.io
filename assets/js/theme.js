@@ -80,30 +80,4 @@ let initTheme = (theme) => {
 }
 
 
-// Theme initialization
-document.addEventListener('DOMContentLoaded', function() {
-    // Check for saved theme preference
-    const savedTheme = localStorage.getItem("theme");
-    if (savedTheme) {
-        document.documentElement.setAttribute('data-theme', savedTheme);
-        updateThemeStyles(savedTheme);
-    } else {
-        // Default to light theme
-        document.documentElement.setAttribute('data-theme', 'light');
-        updateThemeStyles('light');
-    }
-});
-
-// Update theme styles
-function updateThemeStyles(theme) {
-    const lightTheme = document.getElementById('highlight_theme_light');
-    const darkTheme = document.getElementById('highlight_theme_dark');
-    
-    if (theme === 'dark') {
-        lightTheme.media = 'none';
-        darkTheme.media = '';
-    } else {
-        lightTheme.media = '';
-        darkTheme.media = 'none';
-    }
-}
+initTheme(localStorage.getItem("theme"));

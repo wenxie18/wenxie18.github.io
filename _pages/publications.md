@@ -47,7 +47,7 @@ nav_order: 2.5
             <div class="figure-container">
               {% for fig in pub.figures %}
                 <div class="figure-item">
-                  <img src="{{ fig.image | relative_url }}" alt="{{ fig.caption }}" class="publication-figure">
+                  <img src="{{ fig.image }}" alt="{{ fig.caption }}" class="publication-figure">
                   <div class="figure-caption">{{ fig.caption }}</div>
                 </div>
               {% endfor %}
