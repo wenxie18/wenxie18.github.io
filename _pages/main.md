@@ -9,9 +9,6 @@ profile:
   image: wen.png
   image_circular: false
   image_size: 300px
-  address: >
-    <p>Institute for Experiential AI</p>
-    <p>Northeastern University</p>
 
 news: false
 selected_papers: false
