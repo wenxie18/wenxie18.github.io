@@ -113,15 +113,21 @@ body.sticky-bottom-footer {
 
 .publications-section {
   margin-top: 2rem;
+  width: 100%;
+  max-width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .publication-item {
   margin-bottom: 2rem;
   padding: 1.5rem;
-  background: #fff;
+  background: var(--global-card-bg-color);
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
+  width: 100%;
+  box-sizing: border-box;
   
   &:hover {
     transform: translateY(-2px);
@@ -133,18 +139,19 @@ body.sticky-bottom-footer {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+  width: 100%;
 }
 
 .publication-title {
   font-size: 1.1rem;
-  color: #2c3e50;
+  color: var(--global-text-color);
   font-weight: 500;
   line-height: 1.4;
 }
 
 .publication-authors {
   font-size: 0.95rem;
-  color: #666;
+  color: var(--global-text-color-light);
   font-style: italic;
 }
 
@@ -152,7 +159,7 @@ body.sticky-bottom-footer {
   display: flex;
   gap: 1rem;
   font-size: 0.9rem;
-  color: #666;
+  color: var(--global-text-color-light);
   align-items: center;
   flex-wrap: wrap;
 }
@@ -213,7 +220,7 @@ body.sticky-bottom-footer {
 
 .figure-caption {
   font-size: 0.9rem;
-  color: #666;
+  color: var(--global-text-color-light);
   text-align: center;
   font-style: italic;
 }
@@ -227,7 +234,7 @@ body.sticky-bottom-footer {
 .publication-notes {
   margin-top: 0.5rem;
   font-size: 0.9rem;
-  color: #666;
+  color: var(--global-text-color-light);
 }
 
 .note-item {
@@ -393,14 +400,14 @@ body.sticky-bottom-footer {
 
 .experience-item li {
   font-size: 0.95rem;
-  color: #666;
+  color: v.$grey-color;
   margin: 0.5rem 0;
   position: relative;
   padding-left: 1.5rem;
   
   &:before {
     content: "•";
-    color: #3498db;
+    color: v.$blue-color;
     position: absolute;
     left: 0;
   }
@@ -471,14 +478,14 @@ body.sticky-bottom-footer {
 }
 
 .education-list .advisor {
-  color: #666;
+  color: v.$grey-color;
   font-size: 0.9rem;
   width: 100%;
   margin-top: 0rem;
 }
 
 .education-list .advisor a {
-  color: #3498db;
+  color: v.$blue-color;
   text-decoration: none;
   &:hover {
     text-decoration: underline;
@@ -494,7 +501,7 @@ body.sticky-bottom-footer {
 
 .education-details li {
   font-size: 0.9rem;
-  color: #666;
+  color: v.$grey-color;
   position: relative;
   padding-left: 1rem;
   display: block;
@@ -502,14 +509,14 @@ body.sticky-bottom-footer {
   
   &:before {
     content: "•";
-    color: #3498db;
+    color: v.$blue-color;
     position: absolute;
     left: 0;
   }
 }
 
 .education-details a {
-  color: #3498db;
+  color: v.$blue-color;
   text-decoration: none;
   display: inline;
   &:hover {
@@ -533,12 +540,12 @@ body.sticky-bottom-footer {
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  color: #3498db;
+  color: v.$blue-color;
   font-size: 0.9rem;
   transition: color 0.2s ease;
   
   &:hover {
-    color: #2980b9;
+    color: v.$blue-color-dark;
   }
 }
 
@@ -550,9 +557,10 @@ body.sticky-bottom-footer {
 .abstract-content {
   margin-top: 1rem;
   padding: 1rem;
-  background: #f8f9fa;
+  background: var(--global-bg-color);
   border-radius: 4px;
   font-size: 0.95rem;
   line-height: 1.6;
-  color: #444;
+  color: var(--global-text-color);
+  border: 1px solid var(--global-divider-color);
 }
