@@ -2,12 +2,12 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-@use "sass:color";
-@use "variables" as v;
-@use "themes" as t;
-@use "layout" as l;
-@use "base" as b;
-@use "distill" as d;
+@import "variables";
+@import "themes";
+@import "layout";
+@import "base";
+@import "distill";
+@import "mixins";
 
 @charset "utf-8";
 
@@ -21,42 +21,60 @@ html, body {
 }
 
 body {
-  background-color: var(--global-bg-color);
-  color: var(--global-text-color);
+  margin: 0;
+  padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
   line-height: 1.6;
+  color: var(--global-text-color);
+  background-color: var(--global-bg-color);
 }
 
-// Main content wrapper
+// Base container styles
+.container {
+  width: 100%;
+  max-width: 80vw;
+  margin: 0 auto;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+
+// Content wrapper
 .content-wrapper {
   width: 100%;
-  max-width: 60vw !important;
+  max-width: 80vw;
   margin: 0 auto;
-  padding: 0 20px;
-  background-color: var(--global-bg-color);
+  padding: 0;
   box-sizing: border-box;
 }
 
 // Navbar styles
 .navbar {
   width: 100%;
-  max-width: 60vw !important;
+  max-width: 80vw;
   margin: 0 auto;
-  padding: 0.5rem 1rem;
+  padding: 0 1rem;
   box-sizing: border-box;
 }
 
 .navbar-container {
-  width: 100% !important;
-  max-width: 80vw !important;
+  width: 100%;
+  max-width: 80vw;
   margin: 0 auto;
   padding: 0 2rem;
   box-sizing: border-box;
 }
 
-// Force all containers to respect max-width
-.container, 
+// Footer
+.footer {
+  width: 100%;
+  max-width: 80vw;
+  margin: 0 auto;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+
+// Post and content styles
 .post,
 .about-content,
 .profile,
@@ -66,33 +84,10 @@ body {
 .education-grid,
 .experience-grid,
 .distill-container {
-  width: 100% !important;
-  max-width: 80vw !important;
-  margin: 0 auto;
-  box-sizing: border-box;
-}
-
-// Allow post to have custom max-width
-.post {
   width: 100%;
-  max-width: 60vw !important;
+  max-width: 80vw;
   margin: 0 auto;
-  padding: 0;
   box-sizing: border-box;
-}
-
-// Ensure content is properly centered
-.about-content {
-  width: 100%;
-  max-width: 60vw !important;
-  margin: 0 auto;
-  padding: 0;
-  box-sizing: border-box;
-  display: grid;
-  grid-template-columns: 250px 1fr;
-  gap: 2rem;
-  position: relative;
-  align-items: start;
 }
 
 .left-column {

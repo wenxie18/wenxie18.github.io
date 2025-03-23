@@ -1,8 +1,9 @@
 source 'https://rubygems.org'
 
 # Specify Jekyll version
-gem 'jekyll', '~> 4.3.2'
+gem 'jekyll', '~> 3.9.3'
 gem 'github-pages', '~> 228'
+gem 'kramdown-parser-gfm'
 
 group :jekyll_plugins do
     gem 'classifier-reborn'
@@ -14,7 +15,6 @@ group :jekyll_plugins do
     gem 'jekyll-link-attributes'
     gem 'jekyll-minifier'
     gem 'jekyll-paginate-v2'
-    gem 'jekyll-scholar'
     gem 'jekyll-sitemap'
     gem 'jekyll-twitter-plugin'
     gem 'jemoji'

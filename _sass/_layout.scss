@@ -1,5 +1,3 @@
-@use 'variables' as v;
-
 /******************************************************************************
  * Content
  ******************************************************************************/
@@ -45,17 +43,17 @@ body.sticky-bottom-footer {
 .profile {
   margin-bottom: 1rem;
   text-align: left;
-  padding: 2rem 1.5rem;
+  padding: 1rem;
   width: 100%;
   background-color: var(--global-card-bg-color);
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-  margin-top: 1rem;
+  margin-top: 0;
   box-sizing: border-box;
   
   .profile-image-container {
     width: 100%;
-    max-width: 300px;
+    max-width: 250px;
     margin: 0 auto;
     
     img {
@@ -101,12 +99,12 @@ body.sticky-bottom-footer {
 
 .post {
   width: 100%;
-  max-width: 80vw;
+  max-width: 100vw;
   margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
   position: relative;
-  margin-top: 2rem;
+  margin-top: 4rem;
 }
 
 .post-header {
@@ -115,7 +113,7 @@ body.sticky-bottom-footer {
   padding-left: 0rem;
   position: relative;
   z-index: 1;
-  margin-top: 2rem;
+  margin-top: 0;
 
   .post-title {
     font-size: 2.5rem;
@@ -139,8 +137,8 @@ body.sticky-bottom-footer {
   gap: 2rem;
   align-items: start;
   margin: 0 auto;
-  padding: 2rem;
-  max-width: 80vw;
+  padding: 0;
+  max-width: 100vw;
   width: 100%;
   box-sizing: border-box;
   position: relative;
