@@ -332,16 +332,19 @@ body.sticky-bottom-footer {
 
 .experience-section {
   margin-bottom: 2rem;
+  width: 100%;
 }
 
 .experience-item {
-  background: #fff;
+  background: var(--global-card-bg-color);
   border-radius: 8px;
   padding: 1.5rem;
   margin-bottom: 1.5rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   position: relative;
+  width: 100%;
+  box-sizing: border-box;
   
   &:hover {
     transform: translateY(-2px);
@@ -355,39 +358,41 @@ body.sticky-bottom-footer {
   justify-content: space-between;
   margin-bottom: 1rem;
   padding-bottom: 0.5rem;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid var(--global-divider-color);
+  width: 100%;
 }
 
 .experience-header .title-group {
   display: flex;
   align-items: baseline;
+  gap: 0.5rem;
 }
 
 .experience-header h3 {
   font-size: 1.3rem;
   font-weight: 600;
-  color: #2c3e50;
+  color: var(--global-text-color);
   margin: 0;
 }
 
 .experience-header .company {
   font-size: 1.1rem;
-  color: #666;
+  color: var(--global-text-color-light);
   margin-left: 0.5rem;
 }
 
 .experience-header .timeline {
   font-size: 0.9rem;
-  color: #666;
-  background: #f8f9fa;
+  color: var(--global-text-color-light);
+  background: var(--global-bg-color);
   padding: 0.3rem 0.8rem;
   border-radius: 4px;
-  border: 1px solid #eee;
+  border: 1px solid var(--global-divider-color);
 }
 
 .experience-item .team {
   font-size: 1rem;
-  color: #666;
+  color: var(--global-text-color-light);
   margin: 0.5rem 0;
   font-style: italic;
 }
@@ -396,11 +401,12 @@ body.sticky-bottom-footer {
   margin: 0.5rem 0;
   padding-left: 1.5rem;
   list-style-type: none;
+  width: 100%;
 }
 
 .experience-item li {
   font-size: 0.95rem;
-  color: v.$grey-color;
+  color: var(--global-text-color-light);
   margin: 0.5rem 0;
   position: relative;
   padding-left: 1.5rem;
@@ -410,6 +416,29 @@ body.sticky-bottom-footer {
     color: v.$blue-color;
     position: absolute;
     left: 0;
+  }
+}
+
+.career-content {
+  width: 100%;
+  max-width: 80vw;
+  margin: 0 auto;
+}
+
+.experience-grid {
+  display: grid;
+  gap: 1.5rem;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .experience-header {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .experience-header .timeline {
+    align-self: flex-start;
   }
 }
 
