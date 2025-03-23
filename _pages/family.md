@@ -4,7 +4,7 @@ permalink: /family/
 title: Meet My Family
 description: Allow me to introduce you to the one and only SanQi (三奇), my Shiba Inu, yes, the one on Dogecoin! He's been my loyal companion through the challenging times of my Ph.D. study.
 nav: true
-nav_order: 4
+nav_order: 5
 ---
 
 <div style="text-align: center; margin-bottom: 40px;">

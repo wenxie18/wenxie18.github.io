@@ -3,7 +3,7 @@ layout: publications
 permalink: /publications/
 title: Publications
 nav: true
-nav_order: 2.5
+nav_order: 3
 ---
 
 <div class="publications-section">
