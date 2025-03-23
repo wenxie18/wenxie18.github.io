@@ -1,7 +1,11 @@
 source 'https://rubygems.org'
+
+# Specify Jekyll version
+gem 'jekyll', '~> 4.3.2'
+gem 'github-pages', '~> 228'
+
 group :jekyll_plugins do
     gem 'classifier-reborn'
-    gem 'jekyll'
     gem 'jekyll-archives'
     gem 'jekyll-diagrams'
     gem 'jekyll-email-protect'
@@ -27,10 +31,8 @@ group :jekyll_plugins do
     gem 'jekyll-titles-from-headings'
     gem 'jekyll-relative-links'
 end
+
 group :other_plugins do
     gem 'feedjira'
     gem 'httparty'
 end
-
-# Add github-pages gem
-gem 'github-pages', group: :jekyll_plugins
