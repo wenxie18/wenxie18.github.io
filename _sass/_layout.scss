@@ -291,19 +291,19 @@ body.sticky-bottom-footer {
 
 .social-icons {
   display: flex;
-  justify-content: center;
   gap: 1.5rem;
   margin-top: 1.5rem;
-}
-
-.social-icons a {
-  color: v.$grey-color;
-  font-size: 1.5rem;
-  transition: color 0.3s ease;
-}
-
-.social-icons a:hover {
-  color: v.$blue-color;
+  justify-content: flex-start;
+  
+  a {
+    color: var(--global-text-color);
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+    
+    &:hover {
+      color: var(--global-theme-color);
+    }
+  }
 }
 
 @media (max-width: 768px) {

@@ -40,9 +40,9 @@ layout: default
 
         <div class="social-icons">
           {% if site.social %}
-            {% if site.social.github %}
-              <a href="https://github.com/{{ site.social.github }}" target="_blank">
-                <i class="fab fa-github"></i>
+            {% if site.social.email %}
+              <a href="mailto:{{ site.social.email }}" target="_blank">
+                <i class="fas fa-envelope"></i>
               </a>
             {% endif %}
             {% if site.social.linkedin %}
@@ -50,9 +50,9 @@ layout: default
                 <i class="fab fa-linkedin"></i>
               </a>
             {% endif %}
-            {% if site.social.email %}
-              <a href="mailto:{{ site.social.email }}">
-                <i class="fas fa-envelope"></i>
+            {% if site.social.scholar %}
+              <a href="https://scholar.google.com/citations?user={{ site.social.scholar }}" target="_blank">
+                <i class="fas fa-graduation-cap"></i>
               </a>
             {% endif %}
           {% endif %}
