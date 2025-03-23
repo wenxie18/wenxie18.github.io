@@ -33,16 +33,16 @@ body {
 // Base container styles
 .container {
   width: 100%;
-  max-width: 60vw;
+  max-width: $container-width;
   margin: 0 auto;
-  padding: 0 1rem;
+  padding: 0 $container-padding;
   box-sizing: border-box;
 }
 
 // Content wrapper
 .content-wrapper {
   width: 100%;
-  max-width: 60vw;
+  max-width: $container-width;
   margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
@@ -51,26 +51,26 @@ body {
 // Navbar styles
 .navbar {
   width: 100%;
-  max-width: 60vw;
+  max-width: $container-width;
   margin: 0 auto;
-  padding: 0 1rem;
+  padding: 0 $container-padding;
   box-sizing: border-box;
 }
 
 .navbar-container {
   width: 100%;
-  max-width: 60vw;
+  max-width: $container-width;
   margin: 0 auto;
-  padding: 0 2rem;
+  padding: 0 $container-padding;
   box-sizing: border-box;
 }
 
 // Footer
 .footer {
   width: 100%;
-  max-width: 60vw;
+  max-width: $container-width;
   margin: 0 auto;
-  padding: 0 1rem;
+  padding: 0 $container-padding;
   box-sizing: border-box;
 }
 
@@ -85,7 +85,7 @@ body {
 .experience-grid,
 .distill-container {
   width: 100%;
-  max-width: 60vw;
+  max-width: $container-width;
   margin: 0 auto;
   box-sizing: border-box;
 }

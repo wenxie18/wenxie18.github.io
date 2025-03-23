@@ -200,8 +200,18 @@ blockquote {
 .navbar {
   background-color: var(--global-navbar-bg-color);
   border-bottom: 1px solid var(--global-navbar-border-color);
-  padding: 0.5rem 1rem;
+  padding: 0;
   box-shadow: none;
+  height: $nav-height;
+
+  .navbar-container {
+    max-width: $container-width;
+    margin: 0 auto;
+    padding: 0 $container-padding;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
 
   .navbar-brand {
     color: var(--global-navbar-text-color);
@@ -223,6 +233,16 @@ blockquote {
       font-weight: 600;
     }
   }
+}
+
+// Override Bootstrap's fixed-top class
+.navbar.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  height: $nav-height;
 }
 
 .navbar .dropdown-menu {
@@ -907,9 +927,9 @@ pre {
 
 .container {
   width: 100%;
-  max-width: 60vw;
+  max-width: $container-width;
   margin: 0 auto;
-  padding: 0 2rem;
+  padding: 0 $container-padding;
   box-sizing: border-box;
 }
 

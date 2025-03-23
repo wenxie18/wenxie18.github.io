@@ -3,6 +3,25 @@
  * To adjust anything, simply edit the variables below and rebuild the theme.
  ******************************************************************************/
 
+// Container widths
+$container-width: 65vw;
+$container-padding: 1rem;
+
+// Navigation
+$nav-height: 80px;
+$nav-padding: 1rem;
+$nav-spacing-top: 120px;  // Space after navigation bar
+$nav-spacing-bottom: 80px;  // Space before footer
+
+// Content spacing
+$content-padding: 2rem;
+$section-margin: 2rem;
+$post-header-margin: 4rem;  // Increased from 2rem to 4rem to create more space below header
+
+// Header padding
+$header-padding-top: 2rem;
+$header-padding-bottom: 1rem;
+
 // Colors
 $red-color:           #FF3636 !default;
 $red-color-dark:      #B71C1C !default;
