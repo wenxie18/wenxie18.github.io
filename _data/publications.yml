@@ -41,6 +41,6 @@
     - image: "/assets/img/2023HICSS_sample.png"
       caption: "Skin tone detection" 
     - image: "/assets/img/2023HICSS_position.png"
-      caption: "Brand diversity position in terms of skin tone" 
+      caption: "Brand diversity position in terms of model skin tone" 
     - image: "/assets/img/2023HICSS_brands.png"
       caption: "Skin tone representation in brand visuals on social media" 

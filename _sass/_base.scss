@@ -1018,3 +1018,46 @@ pre {
     }
   }
 }
+
+.publication-figures {
+  margin-top: 1.5rem;
+  width: 100%;
+
+  .figure-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    width: 100%;
+
+    .figure-item {
+      flex: 1 1 100%;  // First figure takes full width
+      min-width: 0;  // Prevents flex item from overflowing
+      margin-bottom: 1rem;
+
+      &:not(:first-child) {
+        flex: 1 1 calc(50% - 0.75rem);  // Other figures take half width minus gap
+      }
+
+      img.publication-figure {
+        width: 100%;
+        height: auto;
+        border-radius: 4px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+        display: block;
+        margin-bottom: 0.5rem;
+
+        &:hover {
+          transform: scale(1.02);
+        }
+      }
+
+      .figure-caption {
+        font-size: 0.9rem;
+        color: var(--global-text-color-light);
+        text-align: center;
+        margin-top: 0.5rem;
+      }
+    }
+  }
+}
