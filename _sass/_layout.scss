@@ -47,7 +47,7 @@ body.sticky-bottom-footer {
 .profile-name {
   font-size: 1.8rem;
   font-weight: 600;
-  color: #2c3e50;
+  color: var(--global-text-color);
   margin: 0 0 0.5rem 0;
   text-align: left;
   padding: 0;
@@ -56,7 +56,7 @@ body.sticky-bottom-footer {
 
 .profile-location {
   font-size: 1.1rem;
-  color: #666;
+  color: var(--global-text-color-light);
   text-align: left;
   margin: 0 0 1.5rem 0;
   padding: 0;
@@ -77,7 +77,7 @@ body.sticky-bottom-footer {
 .profile .address {
   margin-top: 1rem;
   font-size: 1.1rem;
-  color: #666;
+  color: var(--global-text-color-light);
   text-align: left;
   width: 100%;
   padding-left:0rem;
@@ -93,13 +93,13 @@ body.sticky-bottom-footer {
 .post-title {
   font-size: 2.5rem;
   font-weight: 600;
-  color: #2c3e50;
+  color: var(--global-text-color);
   margin: 0 0 0.5rem 0;
 }
 
 .desc {
   font-size: 1.2rem;
-  color: #666;
+  color: var(--global-text-color-light);
   margin: 0;
   padding-left: 0rem;
 }
@@ -169,20 +169,20 @@ body.sticky-bottom-footer {
 }
 
 .publication-year {
-  color: v.$blue-color;
+  color: var(--global-theme-color);
 }
 
 .publication-link {
-  color: v.$blue-color;
+  color: var(--global-theme-color);
   text-decoration: none;
   padding: 0.2rem 0.5rem;
-  border: 1px solid v.$blue-color;
+  border: 1px solid var(--global-theme-color);
   border-radius: 4px;
   transition: all 0.2s ease;
   
   &:hover {
-    background-color: v.$blue-color;
-    color: v.$white-color;
+    background-color: var(--global-theme-color);
+    color: var(--global-bg-color);
     text-decoration: none;
   }
 }
@@ -244,7 +244,7 @@ body.sticky-bottom-footer {
   
   &:before {
     content: "•";
-    color: v.$blue-color;
+    color: var(--global-theme-color);
     position: absolute;
     left: 0;
   }
@@ -413,7 +413,7 @@ body.sticky-bottom-footer {
   
   &:before {
     content: "•";
-    color: v.$blue-color;
+    color: var(--global-theme-color);
     position: absolute;
     left: 0;
   }
@@ -445,14 +445,14 @@ body.sticky-bottom-footer {
 .section-header h2 {
   font-size: 1.7rem;
   font-weight: 600;
-  color: #2c3e50;
+  color: var(--global-text-color);
   margin: 0 0 1rem 0;
 }
 
 .education-section h2 {
   font-size: 1.5rem;
   font-weight: 600;
-  color: #2c3e50;
+  color: var(--global-text-color);
   margin: 0 0 1rem 0;
 }
 
@@ -463,20 +463,20 @@ body.sticky-bottom-footer {
 
 .highlight {
   font-size: 1.1rem;
-  color: #2c3e50;
+  color: var(--global-text-color);
   margin-bottom: 1.5rem;
 }
 
 .education-item h3 {
   font-size: 1.2rem;
   font-weight: 600;
-  color: #2c3e50;
+  color: var(--global-text-color);
   margin: 0 0 0.5rem 0;
 }
 
 .education-item p {
   font-size: 1rem;
-  color: #666;
+  color: var(--global-text-color-light);
   margin: 0;
 }
 
@@ -492,29 +492,29 @@ body.sticky-bottom-footer {
   align-items: baseline;
   margin-bottom: 0.5rem;
   font-size: 0.95rem;
-  color: #666;
+  color: var(--global-text-color-light);
   flex-wrap: wrap;
   gap: 0.5rem;
 }
 
 .education-list .degree {
   font-weight: 500;
-  color: #2c3e50;
+  color: var(--global-text-color);
 }
 
 .education-list .institution {
-  color: #666;
+  color: var(--global-text-color-light);
 }
 
 .education-list .advisor {
-  color: v.$grey-color;
+  color: var(--global-text-color-light);
   font-size: 0.9rem;
   width: 100%;
   margin-top: 0rem;
 }
 
 .education-list .advisor a {
-  color: v.$blue-color;
+  color: var(--global-theme-color);
   text-decoration: none;
   &:hover {
     text-decoration: underline;
@@ -530,7 +530,7 @@ body.sticky-bottom-footer {
 
 .education-details li {
   font-size: 0.9rem;
-  color: v.$grey-color;
+  color: var(--global-text-color-light);
   position: relative;
   padding-left: 1rem;
   display: block;
@@ -538,14 +538,14 @@ body.sticky-bottom-footer {
   
   &:before {
     content: "•";
-    color: v.$blue-color;
+    color: var(--global-theme-color);
     position: absolute;
     left: 0;
   }
 }
 
 .education-details a {
-  color: v.$blue-color;
+  color: var(--global-theme-color);
   text-decoration: none;
   display: inline;
   &:hover {
@@ -569,12 +569,12 @@ body.sticky-bottom-footer {
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  color: v.$blue-color;
+  color: var(--global-theme-color);
   font-size: 0.9rem;
   transition: color 0.2s ease;
   
   &:hover {
-    color: v.$blue-color-dark;
+    color: var(--global-hover-color);
   }
 }
 
