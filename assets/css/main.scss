@@ -23,6 +23,7 @@ html, body {
 body {
   background-color: var(--global-bg-color);
   color: var(--global-text-color);
+  font-family: 'Inter', sans-serif;
 }
 
 // Main content wrapper
@@ -41,6 +42,7 @@ body {
   background-color: var(--global-bg-color);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
   box-sizing: border-box;
+  border-bottom: 1px solid var(--global-divider-color);
 }
 
 .navbar-container {
@@ -97,10 +99,11 @@ body {
   width: 100%;
   text-align: left;
   background: var(--global-card-bg-color);
-  padding: 0;
+  padding: 1.5rem;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
   margin-bottom: 1rem;
+  border: 1px solid var(--global-divider-color);
 }
 
 .profile-name {
@@ -120,15 +123,23 @@ body {
   padding: 0;
 }
 
-.profile img {
+.profile-image-container {
   width: 100%;
   max-width: 250px;
+  margin: 0 auto 1.5rem;
+  padding: 0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.profile img {
+  width: 100%;
   height: auto;
   display: block;
   margin: 0;
   padding: 0;
   border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .social-icons {
@@ -184,7 +195,21 @@ body {
     width: 100%;
   }
   
-  .profile img {
+  .profile-image-container {
     max-width: 250px;
+    margin: 0 auto 1.5rem;
+  }
+  
+  .profile {
+    text-align: center;
+  }
+  
+  .profile-name,
+  .profile-location {
+    text-align: center;
+  }
+  
+  .social-icons {
+    justify-content: center;
   }
 }
