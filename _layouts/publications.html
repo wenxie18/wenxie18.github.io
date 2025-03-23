@@ -41,7 +41,7 @@ layout: default
             {% if pub.notes %}
               <div class="publication-notes">
                 {% for note in pub.notes %}
-                  <div class="note-item">{{ note }}</div>
+                  <div class="note-item">{{ note | markdownify }}</div>
                 {% endfor %}
               </div>
             {% endif %}
