@@ -1107,3 +1107,20 @@ pre {
   background-color: var(--global-card-bg-color);
   border-radius: 4px;
 }
+
+.research-focus-section {
+  margin-top: 2rem;
+  padding: 1rem 0;
+  
+  h3 {
+    color: var(--global-text-color);
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+  
+  p {
+    color: var(--global-text-color);
+    line-height: 1.6;
+    margin-bottom: 0;
+  }
+}
