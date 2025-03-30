@@ -24,8 +24,14 @@ social: true
 <div class="research-focus-section">
   <h3>Current Research Focus</h3>
   <p>
-    Wen's research focuses on contextual advertising and emphasizes the impact of congruence. For example, in social media marketing, how does exposure to a preceding story influence viewers' engagement with subsequent advertisements on platforms like Instagram or Snapchat? In brand visuals, how does skin tone alignment between the brand's imagery and the audience affect engagement? In TV advertising, how does the surrounding TV program influence viewers' attention to embedded advertisements? In online reviews, how does identity alignment between the reviewer and the restaurant shape cuisine evaluations?
+    Wen's research focuses on contextual advertising and emphasizes the impact of congruence. His work explores various aspects of contextual alignment across different platforms:
   </p>
+  <ul class="research-list">
+    <li><strong>Social Media Marketing:</strong> How does exposure to a preceding story influence viewers' engagement with subsequent advertisements on platforms like Instagram or Snapchat?</li>
+    <li><strong>Visual Representation:</strong> How does skin tone alignment between the brand's imagery and the audience affect engagement?</li>
+    <li><strong>TV Advertising:</strong> How does the surrounding TV program influence viewers' attention to embedded advertisements?</li>
+    <li><strong>Online Reviews:</strong> How does identity alignment between the reviewer and the restaurant shape cuisine evaluations?</li>
+  </ul>
 </div>
 
 <div class="career-section">
