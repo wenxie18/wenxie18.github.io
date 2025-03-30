@@ -24,7 +24,7 @@ social: true
 <div class="research-focus-section">
   <h3>Current Research Focus</h3>
   <p>
-    Wen's research focuses on contextual advertising and emphasizes the impact of congruence. His work explores various aspects of contextual alignment across different platforms:
+    Wen's research focuses on contextual advertising and emphasizes the impact of congruence. His work spans various substantive areas:
   </p>
   <ul class="research-list">
     <li><strong>Social Media Marketing:</strong> How does exposure to a preceding story influence viewers' engagement with subsequent advertisements on platforms like Instagram or Snapchat?</li>
