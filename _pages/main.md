@@ -27,9 +27,9 @@ social: true
     Wen is an expert in computer vision for image/video analytics and natural language processing for text analytics. He currently applies these computational methods to contextual advertising and emphasizes the impact of congruence in various substantive areas:
   </p>
   <ul class="research-list">
-    <li><strong>Social Media Marketing:</strong> How does exposure to a preceding story influence viewers' engagement with subsequent advertisements on platforms like Instagram or Snapchat?</li>
+    <li><strong>Social Media Marketing:</strong> How does exposure to a preceding story influence viewers' engagement with subsequent advertisements on platforms like Instagram and Snapchat?</li>
     <li><strong>Brand Communications:</strong> How does skin tone alignment between the brand's imagery and the audience affect engagement?</li>
-    <li><strong>TV Advertising:</strong> How does the surrounding TV program influence viewers' attention to embedded advertisements?</li>
+    <li><strong>TV Advertising:</strong> How does TV program influence viewers' attention to the embedded advertisements?</li>
     <li><strong>Online Reviews:</strong> How does identity alignment between the reviewer and the restaurant shape cuisine evaluations?</li>
   </ul>
 </div>
