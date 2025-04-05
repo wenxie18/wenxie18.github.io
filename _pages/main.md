@@ -24,7 +24,7 @@ social: true
 <div class="research-focus-section">
   <h3>Current Research Focus</h3>
   <p>
-    Wen's research focuses on contextual advertising and emphasizes the impact of congruence, spanning various substantive areas:
+    Wen is an expert in computer vision for image/video analytics and natural language processing for text analytics. With these tools, his research focuses on contextual advertising and emphasizes the impact of congruence, spanning various substantive areas:
   </p>
   <ul class="research-list">
     <li><strong>Social Media Marketing:</strong> How does exposure to a preceding story influence viewers' engagement with subsequent advertisements on platforms like Instagram or Snapchat?</li>
