@@ -46,6 +46,17 @@ social: true
     <div class="experience-grid">
       <div class="experience-item">
         <div class="experience-header">
+          <h3>Faculty Postdoctoral Fellow</h3>
+          <span class="company">Northeastern University</span>
+        </div>
+        <p class="team">The Institute for Experiential AI</p>
+        <ul>
+          <li>Wen is working with Prof. Yakov Bart to develop computational methods for tackling complex marketing challenges, with a particular focus on advertising effectiveness and contextual alignment.</li>
+        </ul>
+      </div>
+
+      <div class="experience-item">
+        <div class="experience-header">
           <h3>Research Scientist</h3>
           <span class="company">Snap Inc.</span>
         </div>
