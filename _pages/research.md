@@ -7,20 +7,6 @@ nav: true
 nav_order: 2
 ---
 
-#### **Selective Silence: How Identity Misalignment Shapes Attribute Mention in Restaurant Reviews**
-
-With Amy Pei and Yakov Bart
-
-**Abstract:** Online reviews are a vital resource for managers seeking to improve customer experience and guide product development. However, reviews often omit key product attributes, leading to biased or incomplete insights. Despite this concern, limited research has explored how a reviewer’s identity—and their relationship to the review subject—shapes which attributes are mentioned. This study fills this gap by examining how identity misalignment (i.e., outgroup) between reviewers and restaurants influences attribute omission in reviews. Drawing on more than three million reviews from around 90,000 restaurants, we find that outgroup reviewers are significantly less likely to mention food. In contrast, outgroup reviewers are more likely to mention service. Additionally, prior experience with outgroup restaurants and the identity salience of the dining environment moderates the effect of identity misalignment on food and service mentions, respectively. These findings reveal that reviewer-restaurant identity misalignment is an important driver for systematic reporting biases, offering important implications for customer segmentation, review management, and recommendation systems that rely on consumer reviews.
-- In preparation for submission to Journal of Marketing Research
-
-#### **Impact of Identity Misalignment on Review Rating and Usefulness**
-
-With Amy Pei and Yakov Bart
-
-**Abstract:** This study investigates how identity misalignment between reviewers and businesses affects consumer review ratings and perceived usefulness. Drawing from social identity theory, we operationalize group-based identity misalignment as a discrepancy between the reviewer's racial identity and the racial group associated with the restaurant being reviewed. Analyzing around 4 million reviews across over 84,000 restaurants in the United States and Canada, we find that identity-misaligned (i.e., outgroup) reviewers generally give higher ratings, except when reviewing White-associated restaurants, where they give lower ratings. Reviewer experience with outgroup dining moderates these effects. Furthermore, reviews written by outgroup reviewers are generally perceived as less useful, but this pattern reverses for White-associated restaurants, where such reviewers are perceived as more useful. By introducing identity misalignment as a novel lens for understanding consumer review behavior, this study contributes to identity-based theories of consumption and offers actionable insights for restaurants and review platforms.
-- Under review at Management Science
-
 #### **Shades of Representation: Exploring the Role of Skin-Tone Diversity in Consumer Perceptions and Brand Practices**
 
 With Gijs Overgoor, Hsin-Hsuan Meg Lee, Zhu Han
