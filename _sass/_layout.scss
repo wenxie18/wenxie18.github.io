@@ -365,7 +365,7 @@ body.sticky-bottom-footer {
   position: relative;
   
   &:before {
-    content: "•";
+    content: "\2022";
     color: var(--global-theme-color);
     position: absolute;
     left: 0;
@@ -484,7 +484,7 @@ body.sticky-bottom-footer {
   padding-left: 1.5rem;
   
   &:before {
-    content: "•";
+    content: "\2022";
     color: var(--global-theme-color);
     position: absolute;
     left: 0;
@@ -609,7 +609,7 @@ body.sticky-bottom-footer {
   width: 100%;
   
   &:before {
-    content: "•";
+    content: "\2022";
     color: var(--global-theme-color);
     position: absolute;
     left: 0;
