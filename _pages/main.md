@@ -14,17 +14,30 @@ news: false
 selected_papers: false
 social: true
 ---
-
 <div class="bio-section">
   <p class="lead">
-    Wen is a Faculty Postdoctoral Fellow in the Institute for Experiential AI at Northeastern University. He works with <a href="https://damore-mckim.northeastern.edu/people/yakov-bart/" target="_blank">Prof. Yakov Bart</a> on social science and marketing research.
+    Wen is a Faculty Postdoctoral Fellow in the Institute for Experiential AI at Northeastern University. He is a machine learning scientist specializing in computer vision, multimodal learning, and natural language processing for large-scale real-world systems. His work bridges foundational AI models and production-ready ML pipelines, with applications in advertising intelligence, recommendation systems, and user behavior modeling. He has built and deployed end-to-end systems across video understanding, retrieval, prediction, and agentic AI, working with datasets ranging from tens of thousands to hundreds of millions of samples.
   </p>
 </div>
 
 <div class="research-focus-section">
-  <h3>Current Research Focus</h3>
+  <h3>Technical Expertise</h3>
   <p>
-    Wen is an expert in computer vision for image/video analytics and natural language processing for text analytics. He currently applies these computational methods to contextual advertising and emphasizes the impact of congruence in various substantive areas:
+    Wen has extensive experience building production ML systems and applying state-of-the-art AI methods to solve real-world problems:
+  </p>
+  <ul class="research-list">
+    <li><strong>Multimodal AI & Foundation Models:</strong> Fine-tuning vision-language models for video understanding, summarization, and content annotation; designing multimodal fusion architectures for vision, audio, and text; building large-scale embedding and retrieval systems</li>
+    <li><strong>Large-Scale ML Systems:</strong> End-to-end ML pipeline design from data processing to deployment; building two-tower models for ad response prediction and recommendation; optimizing models for performance and scalability</li>
+    <li><strong>Computer Vision for Production:</strong> Object detection and image segmentation; shot-level video embedding, clustering, and retrieval</li>
+    <li><strong>NLP & LLM Systems:</strong> Multi-hop question answering, summarization, and retrieval-augmented generation (RAG); transformer-based models for structured and unstructured text; LLM-based agents for document automation and knowledge workflows</li>
+    <li><strong>Causal & Decision-Centric Modeling:</strong> Causal inference at scale using observational data; bridging prediction with decision-making</li>
+  </ul>
+</div>
+
+<div class="research-focus-section">
+  <h3>Research Focus</h3>
+  <p>
+    Wen applies these computational methods to address practical problems in contextual advertising and related areas, emphasizing the impact of congruence across different domains:
   </p>
   <ul class="research-list">
     <li><strong>Social Media Marketing:</strong> How does exposure to a preceding story influence viewers' engagement with subsequent advertisements on platforms like Instagram and Snapchat?</li>
@@ -42,7 +55,7 @@ social: true
     <p class="highlight">
       Wen is currently seeking opportunities as an Assistant Professor in Marketing or related fields.
     </p>
-    
+
     <div class="experience-grid">
       <div class="experience-item">
         <div class="experience-header">
@@ -82,6 +95,8 @@ social: true
   </div>
 </div>
 
+
+
 <div class="education-section">
   <h2>Education</h2>
   <div class="education-grid">
@@ -104,5 +119,3 @@ social: true
     </ul>
   </div>
 </div>
-
-
