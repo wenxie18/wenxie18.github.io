@@ -7,6 +7,15 @@ nav: true
 nav_order: 2
 ---
 
+#### **Impact of Identity Misalignment on Review Rating and Usefulness**
+
+With Amy Pei, Yakov Bart
+
+**Abstract:** This study investigates how identity misalignment between reviewers and businesses affects consumer review ratings and perceived usefulness. Drawing from social identity theory, we operationalize group-based identity misalignment as a discrepancy between the reviewer's racial identity and the racial group associated with the restaurant being reviewed. Analyzing around 4 million reviews across over 84,000 restaurants in the United States and Canada, we find that identity-misaligned (i.e., outgroup) reviewers generally give higher ratings, except when reviewing White-associated restaurants, where they give lower ratings. Reviewer experience with outgroup dining moderates these effects. Furthermore, reviews written by outgroup reviewers are generally perceived as less useful, but this pattern reverses for White-associated restaurants, where such reviewers are perceived as more useful. By introducing identity misalignment as a novel lens for understanding consumer review behavior, this study contributes to identity-based theories of consumption and offers actionable insights for restaurants and review platforms.
+- Posted: November 7, 2025
+- [Click here to view full paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5687942)
+
+
 #### **Shades of Representation: Exploring the Role of Skin-Tone Diversity in Consumer Perceptions and Brand Practices**
 
 With Gijs Overgoor, Hsin-Hsuan Meg Lee, Zhu Han
