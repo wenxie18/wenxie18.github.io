@@ -16,7 +16,7 @@ social: true
 ---
 <div class="bio-section">
   <p class="lead">
-    Wen is a Faculty Postdoctoral Fellow in the Institute for Experiential AI at Northeastern University. His work bridges foundational AI models and production-ready ML pipelines, with applications in advertising intelligence, recommendation systems, and user behavior modeling. He has built and deployed end-to-end systems across video understanding, retrieval, prediction, and agentic AI, working with datasets ranging from tens of thousands to hundreds of millions of samples.
+    Wen is a Faculty Postdoctoral Fellow in the Institute for Experiential AI at Northeastern University. His work bridges foundational AI models and production-ready ML pipelines, with applications in content understanding, advertising intelligence, recommendation systems, and user behavior modeling.
   </p>
 </div>
 
@@ -94,8 +94,6 @@ social: true
     </div>
   </div>
 </div>
-
-
 
 <div class="education-section">
   <h2>Education</h2>
