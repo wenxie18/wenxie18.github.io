@@ -6,7 +6,7 @@ subtitle: Atlanta, GA
 
 profile:
   align: left
-  image: wen.png
+  image: wen.jpg
   image_circular: false
   image_size: 300px
 
