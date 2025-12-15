@@ -8,11 +8,11 @@ To run the site locally:
 
 1. Install Ruby and Bundler
 2. Install dependencies:
-   ```bash
+```bash
    bundle install
    ```
 3. Start the local server:
-   ```bash
+```bash
    bundle exec jekyll serve
    ```
 4. Visit http://localhost:4000
