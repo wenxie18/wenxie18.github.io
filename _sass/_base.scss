@@ -1106,6 +1106,9 @@ pre {
   padding: 1rem;
   background-color: var(--global-card-bg-color);
   border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
 }
 
 .video-toggle {
@@ -1131,18 +1134,33 @@ pre {
 
   .video-item {
     width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-bottom: 1rem;
+    box-sizing: border-box;
   }
 
   .publication-video-player {
     width: 100%;
-    max-width: 400px;
+    max-width: 100%;
     height: auto;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     background-color: var(--global-card-bg-color);
+    display: block;
+    box-sizing: border-box;
+  }
+}
+
+@media (max-width: 768px) {
+  .publication-video {
+    .publication-video-player {
+      max-width: 100%;
+      width: 100%;
+    }
   }
 }
 
