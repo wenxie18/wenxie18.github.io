@@ -1108,6 +1108,27 @@ pre {
   border-radius: 4px;
 }
 
+.publication-video {
+  margin-top: 1.5rem;
+  width: 100%;
+
+  .video-item {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+
+  .publication-video-player {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: var(--global-card-bg-color);
+  }
+}
+
 .research-focus-section {
   margin-top: 2rem;
   padding: 1rem 0;

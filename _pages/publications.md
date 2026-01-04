@@ -42,6 +42,16 @@ nav_order: 3
             {% endfor %}
           </div>
         {% endif %}
+        {% if pub.video %}
+          <div class="publication-video">
+            <div class="video-item">
+              <video controls class="publication-video-player">
+                <source src="{{ pub.video }}" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </div>
+        {% endif %}
         {% if pub.figures.size > 0 %}
           <div class="publication-figures">
             <div class="figure-container">
