@@ -44,11 +44,17 @@ nav_order: 3
         {% endif %}
         {% if pub.video %}
           <div class="publication-video">
-            <div class="video-item">
-              <video controls class="publication-video-player">
-                <source src="{{ pub.video }}" type="video/mp4">
-                Your browser does not support the video tag.
-              </video>
+            <button class="video-toggle" onclick="toggleVideo(this)">
+              <span class="video-icon">▼</span>
+              <span class="video-text">Show Video</span>
+            </button>
+            <div class="video-container" style="display: none;">
+              <div class="video-item">
+                <video controls class="publication-video-player">
+                  <source src="{{ pub.video }}" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+              </div>
             </div>
           </div>
         {% endif %}
@@ -83,6 +89,22 @@ function toggleAbstract(button) {
     content.style.display = 'none';
     icon.textContent = '▶';
     text.textContent = 'Show Abstract';
+  }
+}
+
+function toggleVideo(button) {
+  const content = button.nextElementSibling;
+  const icon = button.querySelector('.video-icon');
+  const text = button.querySelector('.video-text');
+  
+  if (content.style.display === 'none') {
+    content.style.display = 'block';
+    icon.textContent = '▼';
+    text.textContent = 'Hide Video';
+  } else {
+    content.style.display = 'none';
+    icon.textContent = '▶';
+    text.textContent = 'Show Video';
   }
 }
 </script> 
